@@ -18,6 +18,14 @@ authors:
 version: 1.0.0
 license: MIT
 repository-code: "https://github.com/SamirHossain099/roottrait"
+doi: "10.5281/zenodo.23093341"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23093341"
+    description: Concept DOI, always resolves to the latest release. Cite this one.
+  - type: doi
+    value: "10.5281/zenodo.23093342"
+    description: Version DOI for v1.0.0 specifically.
 keywords:
   - root phenotyping
   - image segmentation

@@ -174,6 +174,8 @@ def test_published_constants_match_the_provenance_record():
         "ce5059f92b039855bbcb5d28e346aec6bf9b26db642ab66f2c9851df4d92de5a")
     assert PRMI_LICENCE == "CC0-1.0"
     doc = os.path.join(os.path.dirname(SRC), "data", "prmi", "PROVENANCE.md")
+    if not os.path.exists(doc):
+        pytest.skip("the local provenance record ships with the data, not the repository")
     text = open(doc, encoding="utf-8").read()
     assert PRMI_ZIP_SHA256 in text, "PROVENANCE.md and the code disagree about the checksum"
 

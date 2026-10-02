@@ -1,0 +1,54 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "roottrait"
+version = "1.0.0"
+description = "Root traits from binary masks, and calibrated mask degradations for testing how segmentation error reaches them"
+readme = "src/roottrait/README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Samir Hossain" }]
+keywords = [
+    "root phenotyping", "image segmentation", "evaluation metrics", "Dice coefficient",
+    "minirhizotron", "root traits", "fractal dimension", "lacunarity",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
+# The library is numpy + scipy + scikit-image only. What the paper's analysis scripts need on top
+# (pandas, plotting, PyTorch for the trained models, groupeval for the resolution analysis) lives
+# in extras, so that measuring traits does not pull a deep-learning stack.
+dependencies = [
+    "numpy>=1.23",
+    "scipy>=1.9",
+    "scikit-image>=0.20",
+]
+
+[project.optional-dependencies]
+analysis = ["pandas>=1.5", "matplotlib>=3.6", "pillow>=9", "groupeval>=0.1.0"]
+train = ["torch>=2.1", "segmentation-models-pytorch>=0.3"]
+dev = ["pytest>=7", "ruff>=0.4"]
+
+[project.urls]
+Homepage = "https://github.com/SamirHossain099/roottrait"
+Issues = "https://github.com/SamirHossain099/roottrait/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/roottrait"]
+
+# The sdist is an ALLOWLIST and must stay one. This pyproject sits inside the working directory of
+# the paper, which holds the unpublished manuscript and working notes; the default sdist would sweep
+# them in. tests/test_packaging.py fails if anything outside this list is packaged.
+[tool.hatch.build.targets.sdist]
+only-include = ["src/roottrait"]

@@ -1,0 +1,45 @@
+{
+  "n_rows": 1279,
+  "n_masks": 36,
+  "architectures": [
+    "dichotomous",
+    "fibrous",
+    "herringbone",
+    "taproot"
+  ],
+  "thicknesses": {
+    "thin": 2,
+    "medium": 5,
+    "thick": 8
+  },
+  "kind_ordering_holds_everywhere": true,
+  "junction_break_most_deceptive_everywhere": false,
+  "fragility_rank_agreement_between_architectures": [
+    {
+      "pair": "dichotomous vs fibrous",
+      "rho": 0.4895104895104896
+    },
+    {
+      "pair": "dichotomous vs herringbone",
+      "rho": 0.5034965034965035
+    },
+    {
+      "pair": "dichotomous vs taproot",
+      "rho": 0.5804195804195805
+    },
+    {
+      "pair": "fibrous vs herringbone",
+      "rho": 0.37762237762237766
+    },
+    {
+      "pair": "fibrous vs taproot",
+      "rho": 0.37762237762237766
+    },
+    {
+      "pair": "herringbone vs taproot",
+      "rho": 0.9790209790209792
+    }
+  ],
+  "median_morphology_range_dex": 0.6317420643072885,
+  "median_thickness_range_dex": 0.3833984765032903
+}

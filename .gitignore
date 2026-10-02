@@ -1,0 +1,54 @@
+# Deny by default, then allow. Nothing is committed unless it is named below.
+#
+# This directory also holds the unpublished manuscript, working notes and submission material.
+# Listing what to ignore fails open: a file added later and forgotten would be published. So this
+# fails closed, and adding a file to the public repository is a deliberate edit of this list.
+# `git ls-files` shows what ships; tests/test_packaging.py checks it.
+
+*
+
+# ------------------------------------------------------------------ top level
+!/.gitignore
+!/README.md
+!/LICENSE
+!/pyproject.toml
+!/ruff.toml
+!/CITATION.cff
+!/.github/
+!/.github/workflows/
+!/.github/workflows/*.yml
+
+# ------------------------------------------------------------------ the library
+!/src/
+/src/*
+!/src/roottrait/
+/src/roottrait/*
+!/src/roottrait/*.py
+!/src/roottrait/README.md
+
+# ------------------------------------------------------------------ the analysis scripts
+!/src/*.py
+# NOT the manuscript tooling: prose and register scanners and the reference checker.
+/src/prose_scan.py
+/src/register_scan.py
+/src/verify_refs.py
+
+# ------------------------------------------------------------------ tests
+!/tests/
+/tests/*
+!/tests/*.py
+# NOT the manuscript test: it reads the unpublished manuscript.
+/tests/test_manuscript_numbers.py
+
+# ------------------------------------------------------------------ results a reader can check
+!/results/
+/results/*
+!/results/*.json
+!/results/*.csv
+/results/refs_verified.json
+# Per-model summaries and per-frame Dice of the 36 trained models (about 1 MB), enough to rerun the
+# resolution analysis without a GPU. The per-frame predictions (15 GB) are not published.
+!/results/prmi_models/
+/results/prmi_models/*
+!/results/prmi_models/*_summary.json
+!/results/prmi_models/*_dice.npy

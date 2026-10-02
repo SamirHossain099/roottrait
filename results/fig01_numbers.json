@@ -1,0 +1,57 @@
+{
+  "config": "peanut_640x480_DPI120",
+  "test_index": 170,
+  "path": "test\\masks_pixel_gt\\Peanut_640x480_DPI120\\GT_Peanut_T003_L040_2017.07.27_070751_EED_DPI120.png",
+  "target_dice_loss": 0.05,
+  "panels": {
+    "ground_truth": {
+      "dice": 1.0,
+      "area_err": 0.0,
+      "length_err": 0.0,
+      "junctions": 19,
+      "components": 4
+    },
+    "boundary_dilate": {
+      "dice": 0.9494924638572747,
+      "area_err": 0.10638849293767008,
+      "length_err": 0.15106635071090047,
+      "junctions": 62,
+      "components": 4
+    },
+    "boundary_erode": {
+      "dice": 0.949281775478249,
+      "area_err": -0.09654010625890891,
+      "length_err": 0.05154028436018957,
+      "junctions": 35,
+      "components": 5
+    },
+    "thin_dropout": {
+      "dice": 0.9533432795334328,
+      "area_err": -0.08915381624983802,
+      "length_err": -0.11255924170616113,
+      "junctions": 11,
+      "components": 5
+    },
+    "junction_break": {
+      "dice": 0.9505677568504793,
+      "area_err": -0.09420759362446547,
+      "length_err": -0.035545023696682464,
+      "junctions": 2,
+      "components": 34
+    },
+    "speckle": {
+      "dice": 0.9499015263417036,
+      "area_err": 0.10548140469094208,
+      "length_err": 0.490521327014218,
+      "junctions": 28,
+      "components": 759
+    },
+    "blob": {
+      "dice": 0.9517760236803158,
+      "area_err": 0.10133471556304263,
+      "length_err": 0.005924170616113744,
+      "junctions": 19,
+      "components": 8
+    }
+  }
+}

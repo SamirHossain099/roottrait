@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use roottrait, please cite it as below."
+title: "roottrait: root traits from binary masks and calibrated mask degradations for testing segmentation metrics"
+abstract: >-
+  Root segmentation models are compared by Dice overlap, but their masks are used to measure root
+  traits. roottrait computes twelve root traits from binary masks, grouped by how a local pixel
+  error enters them, and provides six named segmentation failures whose severity is calibrated per
+  mask to an exact Dice loss, so that different failures can be compared at the same overlap. It
+  also decomposes a prediction's errors into four kinds and fills small annotation holes that
+  otherwise inflate skeleton junction counts. The repository reproduces every result in the
+  accompanying manuscript, including experiments on the PRMI minirhizotron dataset.
+type: software
+authors:
+  - given-names: Samir
+    family-names: Hossain
+    orcid: "https://orcid.org/0009-0003-8986-0946"
+    affiliation: "Department of Electrical and Computer Engineering, Texas Tech University"
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/SamirHossain099/roottrait"
+keywords:
+  - root phenotyping
+  - image segmentation
+  - evaluation metrics
+  - Dice coefficient
+  - minirhizotron
+  - root traits
+  - fractal dimension
+  - lacunarity

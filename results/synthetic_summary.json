@@ -1,0 +1,271 @@
+{
+  "n_masks": 24,
+  "n_cells": 864,
+  "reachable_share": 0.9143518518518519,
+  "achieved_loss_at_0.01": {
+    "mean": 0.011170671330438453,
+    "sd": 0.0045592008195043925,
+    "n": 144
+  },
+  "achieved_loss_at_0.02": {
+    "mean": 0.0206077431365289,
+    "sd": 0.003361918656519213,
+    "n": 144
+  },
+  "f12_dice_099": {
+    "pixel_area": {
+      "kind": "integral",
+      "by_degradation": {
+        "blob": 0.022900961004173652,
+        "boundary_dilate": 0.0197378683351324,
+        "boundary_erode": 0.0195796865084264,
+        "junction_break": 0.019696225516205403,
+        "speckle": 0.020719691561395498,
+        "thin_dropout": 0.02047918020621225
+      },
+      "min": 0.0195796865084264,
+      "max": 0.022900961004173652,
+      "argmax": "blob"
+    },
+    "convex_hull_area": {
+      "kind": "extremum",
+      "by_degradation": {
+        "blob": 0.163006347095991,
+        "boundary_dilate": 0.00121784403552095,
+        "boundary_erode": 0.00020154047239205,
+        "junction_break": 0.0,
+        "speckle": 1.2026295970723768,
+        "thin_dropout": 0.0017993359027359
+      },
+      "min": 0.0,
+      "max": 1.2026295970723768,
+      "argmax": "speckle"
+    },
+    "bounding_depth": {
+      "kind": "extremum",
+      "by_degradation": {
+        "blob": 0.0,
+        "boundary_dilate": 0.0,
+        "boundary_erode": 0.0,
+        "junction_break": 0.0,
+        "speckle": 0.09537720627780764,
+        "thin_dropout": 0.0
+      },
+      "min": 0.0,
+      "max": 0.09537720627780764,
+      "argmax": "speckle"
+    },
+    "bounding_width": {
+      "kind": "extremum",
+      "by_degradation": {
+        "blob": 0.13300118223273089,
+        "boundary_dilate": 0.0,
+        "boundary_erode": 0.0,
+        "junction_break": 0.0,
+        "speckle": 0.7992075044476792,
+        "thin_dropout": 0.0
+      },
+      "min": 0.0,
+      "max": 0.7992075044476792,
+      "argmax": "speckle"
+    },
+    "total_length": {
+      "kind": "integral",
+      "by_degradation": {
+        "blob": 0.001751379728776,
+        "boundary_dilate": 0.03313874528224015,
+        "boundary_erode": 0.0125349988479182,
+        "junction_break": 0.027798058419309747,
+        "speckle": 0.11311397930176464,
+        "thin_dropout": 0.0384014676007865
+      },
+      "min": 0.001751379728776,
+      "max": 0.11311397930176464,
+      "argmax": "speckle"
+    },
+    "mean_diameter": {
+      "kind": "integral",
+      "by_degradation": {
+        "blob": 0.0208104501140189,
+        "boundary_dilate": 0.0125797815306523,
+        "boundary_erode": 0.03102681807819225,
+        "junction_break": 0.040001638311733,
+        "speckle": 0.08478754478632375,
+        "thin_dropout": 0.01060268510838485
+      },
+      "min": 0.01060268510838485,
+      "max": 0.08478754478632375,
+      "argmax": "speckle"
+    },
+    "n_tips": {
+      "kind": "count",
+      "by_degradation": {
+        "blob": 0.0,
+        "boundary_dilate": 0.39285714285714285,
+        "boundary_erode": 0.0539772727272727,
+        "junction_break": 0.2792207792207792,
+        "speckle": 0.2073863636363636,
+        "thin_dropout": 0.08545454545454545
+      },
+      "min": 0.0,
+      "max": 0.39285714285714285,
+      "argmax": "boundary_dilate"
+    },
+    "n_branch_points": {
+      "kind": "count",
+      "by_degradation": {
+        "blob": 0.0,
+        "boundary_dilate": 0.38466386554621845,
+        "boundary_erode": 0.0264373921126012,
+        "junction_break": 0.12356321839080454,
+        "speckle": 0.050595238095238054,
+        "thin_dropout": 0.14188218390804594
+      },
+      "min": 0.0,
+      "max": 0.38466386554621845,
+      "argmax": "boundary_dilate"
+    },
+    "n_components": {
+      "kind": "count",
+      "by_degradation": {
+        "blob": 2.0,
+        "boundary_dilate": 0.0,
+        "boundary_erode": 0.0,
+        "junction_break": 3.75,
+        "speckle": 155.0,
+        "thin_dropout": 0.0
+      },
+      "min": 0.0,
+      "max": 155.0,
+      "argmax": "speckle"
+    },
+    "n_holes": {
+      "kind": "count",
+      "by_degradation": {
+        "blob": 0.0,
+        "boundary_dilate": 0.25816993464052285,
+        "boundary_erode": 0.01428571428571425,
+        "junction_break": 0.26785714285714285,
+        "speckle": 0.0,
+        "thin_dropout": 0.0714285714285714
+      },
+      "min": 0.0,
+      "max": 0.26785714285714285,
+      "argmax": "junction_break"
+    },
+    "fractal_dimension": {
+      "kind": "fitted",
+      "by_degradation": {
+        "blob": 0.007508295314762501,
+        "boundary_dilate": 0.00558305214055415,
+        "boundary_erode": 0.0012656867178081,
+        "junction_break": 0.0012867814153112,
+        "speckle": 0.0834034558000592,
+        "thin_dropout": 0.0035436530425746503
+      },
+      "min": 0.0012656867178081,
+      "max": 0.0834034558000592,
+      "argmax": "speckle"
+    },
+    "lacunarity": {
+      "kind": "integral",
+      "by_degradation": {
+        "blob": 0.02414675502570195,
+        "boundary_dilate": 0.0080840121351901,
+        "boundary_erode": 0.00693431677369885,
+        "junction_break": 0.00632035954516245,
+        "speckle": 0.0304597170497894,
+        "thin_dropout": 0.014456605582217199
+      },
+      "min": 0.00632035954516245,
+      "max": 0.0304597170497894,
+      "argmax": "speckle"
+    }
+  },
+  "f12_n_components_baseline_median": 1.0,
+  "f11": {
+    "n_masks": 24,
+    "dilate_beats_junction_in": 24,
+    "median_difference": 0.6071839080459771,
+    "ci95": [
+      0.2975206611570248,
+      0.7857142857142857
+    ],
+    "dilate_is_argmax_in": 24,
+    "winner_by_dose": {
+      "0.005": "boundary_dilate",
+      "0.01": "boundary_dilate",
+      "0.02": "boundary_dilate",
+      "0.05": "boundary_dilate",
+      "0.1": "boundary_dilate",
+      "0.2": "junction_break"
+    }
+  },
+  "f9": {
+    "kind_median_sensitivity": {
+      "dichotomous": {
+        "count": 3.7056003425039026,
+        "extremum": 33.39507339677918,
+        "fitted": 4.416499870320477,
+        "integral": 2.227523487611449
+      },
+      "fibrous": {
+        "count": 17.597385410545595,
+        "extremum": 30.29187708566177,
+        "fitted": 4.365716758263077,
+        "integral": 3.9200533124848875
+      },
+      "herringbone": {
+        "count": 43.42589730224226,
+        "extremum": 41.34230994533356,
+        "fitted": 3.922643679845701,
+        "integral": 2.715677679698742
+      },
+      "taproot": {
+        "count": 12.633014910131358,
+        "extremum": 25.882100744574903,
+        "fitted": 2.9176237180303195,
+        "integral": 2.434406112436637
+      }
+    },
+    "integral_lowest_everywhere": true,
+    "trait_rank_agreement": {
+      "min": 0.37762237762237766,
+      "median": 0.49650349650349657,
+      "max": 0.9790209790209792
+    }
+  },
+  "f10": {
+    "median_morphology_dex": 0.6317420643072885,
+    "median_thickness_dex": 0.3833984765032903
+  },
+  "architecture_branch_density": {
+    "dichotomous": 166.43741403026135,
+    "fibrous": 78.33163784333672,
+    "herringbone": 38.727524204702625,
+    "taproot": 53.06380290587492
+  },
+  "architecture_branch_density_ratio": 4.297651797995678,
+  "morphology_sweep_n_masks": 36,
+  "calibrated_sweep_n_masks": 24,
+  "f12_integral_max": {
+    "value": 0.11311397930176464,
+    "trait": "total_length"
+  },
+  "f7_uncalibrated_mean_loss": {
+    "blob": 0.11656354664169351,
+    "boundary_dilate": 0.23163314532673743,
+    "boundary_erode": 0.4713341503759129,
+    "junction_break": 0.024491794846629545,
+    "speckle": 0.017589147296934116,
+    "thin_dropout": 0.012883245246198062
+  },
+  "f11_fusion_example": {
+    "mask": "fibrous|medium|0",
+    "dice": 0.9804660225704313,
+    "branch_points_before": 231,
+    "branch_points_after": 532
+  },
+  "f1_max_abs_error_finest": 0.061203620154140825,
+  "f1_n_structures": 6
+}

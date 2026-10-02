@@ -1,0 +1,19 @@
+{
+  "raw": {
+    "pinholes_whole_frame": 60,
+    "junctions_whole_frame": 62
+  },
+  "filled": {
+    "pinholes_whole_frame": 0,
+    "junctions_whole_frame": 5
+  },
+  "dice_raw_vs_filled": 0.9964008756632406,
+  "config": "peanut_640x480_DPI120",
+  "test_index": 1918,
+  "path": "test\\masks_pixel_gt\\Peanut_640x480_DPI120\\GT_Peanut_T025_L061_2017.07.13_114750_EED_DPI120.png",
+  "crop_y0_x0_size": [
+    8,
+    176,
+    96
+  ]
+}

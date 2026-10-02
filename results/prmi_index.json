@@ -1,0 +1,148 @@
+{
+  "archive": {
+    "source": "extracted directory",
+    "path": "data/prmi/doi_10_5061_dryad_2v6wwpzp4__v20220204/PRMI_official",
+    "sha256": null,
+    "sha256_ok": null,
+    "note": "zip not present; the published SHA-256 was NOT verified against these files. Re-download the archive to assert byte-level provenance."
+  },
+  "index": {
+    "n_entries": 136511,
+    "n_images": 136511,
+    "n_parsed": 136511,
+    "n_unparsed": 0,
+    "n_non_image": 0,
+    "parse_rate": 1.0,
+    "unparsed_examples": [],
+    "species": {
+      "cotton": 4824,
+      "papaya": 1092,
+      "peanut": 73334,
+      "sesame": 33012,
+      "sunflower": 7800,
+      "switchgrass": 16449
+    },
+    "configs": {
+      "cotton_736x552_DPI150": 4824,
+      "papaya_736x552_DPI150": 1092,
+      "peanut_640x480_DPI120": 34084,
+      "peanut_736x552_DPI150": 39250,
+      "sesame_640x480_DPI120": 4320,
+      "sesame_736x552_DPI150": 28692,
+      "sunflower_640x480_DPI120": 7800,
+      "switchgrass_720x510_DPI300": 16449
+    },
+    "n_groups": 162,
+    "n_sessions": 994,
+    "n_tiled": 16449,
+    "n_in_nomask_folder": 8625,
+    "official_split_sizes": {
+      "train/image": 46683,
+      "train/mask": 38058,
+      "test/image": 14100,
+      "test/mask": 14100,
+      "val/image": 11785,
+      "val/mask": 11785
+    }
+  },
+  "pairing": {
+    "n_identities": 72568,
+    "n_pairs": 63943,
+    "n_images_without_mask": 8625,
+    "n_masks_without_image": 0,
+    "n_ambiguous_identities": 0,
+    "ambiguous_examples": [],
+    "pair_rate": 0.8811459596516371
+  },
+  "mask_audit": {
+    "n_sampled": 100,
+    "n_ok": 100,
+    "n_failed": 0,
+    "failures": [],
+    "foreground_fraction": {
+      "min": 0.0,
+      "median": 0.0042582309388783865,
+      "max": 0.24068359375
+    },
+    "foreground_by_config": {
+      "cotton_736x552_DPI150": {
+        "n": 2,
+        "median": 0.015931444943289224,
+        "max": 0.03186288988657845
+      },
+      "papaya_736x552_DPI150": {
+        "n": 1,
+        "median": 0.07814222983616888,
+        "max": 0.07814222983616888
+      },
+      "peanut_640x480_DPI120": {
+        "n": 30,
+        "median": 0.0,
+        "max": 0.24068359375
+      },
+      "peanut_736x552_DPI150": {
+        "n": 28,
+        "median": 0.007328833884688091,
+        "max": 0.07707151858853183
+      },
+      "sesame_640x480_DPI120": {
+        "n": 3,
+        "median": 0.017464192708333333,
+        "max": 0.05569986979166667
+      },
+      "sesame_736x552_DPI150": {
+        "n": 27,
+        "median": 0.006901780088216761,
+        "max": 0.04456374054820416
+      },
+      "sunflower_640x480_DPI120": {
+        "n": 6,
+        "median": 0.0018294270833333333,
+        "max": 0.07499674479166667
+      },
+      "switchgrass_720x510_DPI300": {
+        "n": 3,
+        "median": 0.01829520697167756,
+        "max": 0.03928921568627451
+      }
+    },
+    "distinct_shapes": [
+      [
+        480,
+        640
+      ],
+      [
+        552,
+        736
+      ],
+      [
+        720,
+        510
+      ]
+    ],
+    "n_distinct_shapes": 3
+  },
+  "leakage": {
+    "n_images": 136511,
+    "n_groups": 162,
+    "n_sessions": 994,
+    "median_images_per_group": 444.0,
+    "median_sessions_per_group": 3.0,
+    "random_split_val_group_overlap": 1.0,
+    "group_disjoint_val_group_overlap": 0.0
+  },
+  "split": {
+    "n_groups": 162,
+    "sizes": {
+      "val": 27292,
+      "train": 81913,
+      "test": 27306
+    },
+    "group_counts": {
+      "train": 68,
+      "val": 48,
+      "test": 46
+    },
+    "imbalance": 3.001355708632566
+  }
+}

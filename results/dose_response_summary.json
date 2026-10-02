@@ -1,0 +1,110 @@
+[
+  {
+    "trait": "n_components",
+    "family": "topology",
+    "sensitivity": 891.5553103445243,
+    "spearman_dice_vs_error": -0.19188080467254087,
+    "median_err": 1.0,
+    "worst_at_dice99": 35.0,
+    "median_err_at_dice99": 0.5
+  },
+  {
+    "trait": "convex_hull_area",
+    "family": "area",
+    "sensitivity": 45.25205846014905,
+    "spearman_dice_vs_error": -0.5005159831988907,
+    "median_err": 0.03440761555224223,
+    "worst_at_dice99": 2.175960748175637,
+    "median_err_at_dice99": 0.0004631666705263889
+  },
+  {
+    "trait": "n_holes",
+    "family": "topology",
+    "sensitivity": 27.46324525370909,
+    "spearman_dice_vs_error": -0.6135041781009045,
+    "median_err": 0.25,
+    "worst_at_dice99": 1.0,
+    "median_err_at_dice99": 0.0
+  },
+  {
+    "trait": "bounding_depth",
+    "family": "area",
+    "sensitivity": 21.086605910462243,
+    "spearman_dice_vs_error": -0.5091375400505964,
+    "median_err": 0.010256410256410256,
+    "worst_at_dice99": 1.1704545454545454,
+    "median_err_at_dice99": 0.0
+  },
+  {
+    "trait": "n_tips",
+    "family": "topology",
+    "sensitivity": 15.43374940121866,
+    "spearman_dice_vs_error": -0.4597426925617417,
+    "median_err": 0.18181818181818182,
+    "worst_at_dice99": 0.5384615384615384,
+    "median_err_at_dice99": 0.06666666666666667
+  },
+  {
+    "trait": "n_branch_points",
+    "family": "topology",
+    "sensitivity": 13.27055192443653,
+    "spearman_dice_vs_error": -0.7192440100568233,
+    "median_err": 0.1774193548387097,
+    "worst_at_dice99": 0.6216216216216216,
+    "median_err_at_dice99": 0.11428571428571428
+  },
+  {
+    "trait": "bounding_width",
+    "family": "area",
+    "sensitivity": 11.539240397589456,
+    "spearman_dice_vs_error": -0.5142738552016312,
+    "median_err": 0.014825553564834443,
+    "worst_at_dice99": 0.8578431372549019,
+    "median_err_at_dice99": 0.0
+  },
+  {
+    "trait": "total_length",
+    "family": "length",
+    "sensitivity": 3.731042304071445,
+    "spearman_dice_vs_error": -0.7363858687864033,
+    "median_err": 0.060121016538926986,
+    "worst_at_dice99": 0.11774461028192372,
+    "median_err_at_dice99": 0.02959830866807611
+  },
+  {
+    "trait": "mean_diameter",
+    "family": "length",
+    "sensitivity": 3.4259105164195844,
+    "spearman_dice_vs_error": -0.9213415400075367,
+    "median_err": 0.0853860495019258,
+    "worst_at_dice99": 0.091386771002279,
+    "median_err_at_dice99": 0.017358662089935955
+  },
+  {
+    "trait": "fractal_dimension",
+    "family": "scaling",
+    "sensitivity": 3.3985323601324424,
+    "spearman_dice_vs_error": -0.740488815917136,
+    "median_err": 0.028214338117608033,
+    "worst_at_dice99": 0.21509080203996442,
+    "median_err_at_dice99": 0.0038945519987400676
+  },
+  {
+    "trait": "pixel_area",
+    "family": "area",
+    "sensitivity": 2.0743318672801574,
+    "spearman_dice_vs_error": -0.9905476670637858,
+    "median_err": 0.0672938029276353,
+    "worst_at_dice99": 0.019415532425940754,
+    "median_err_at_dice99": 0.006405124099279423
+  },
+  {
+    "trait": "lacunarity",
+    "family": "scaling",
+    "sensitivity": 1.8080574269417715,
+    "spearman_dice_vs_error": -0.9617994867837852,
+    "median_err": 0.06228181728504168,
+    "worst_at_dice99": 0.028276720859244854,
+    "median_err_at_dice99": 0.008202596146082354
+  }
+]

@@ -1,0 +1,152 @@
+{
+  "overall": {
+    "n": 63943,
+    "empty_rate": 0.4439735389331123,
+    "mean_dice_predict_nothing": 0.4439735389331123,
+    "mean_dice_predict_everything": 0.034471008735645806,
+    "mean_dice_nothing_nonempty_only": 0.0,
+    "mean_gt_foreground_fraction": 0.01851789526305319
+  },
+  "by_config": {
+    "cotton_736x552_DPI150": {
+      "n": 2412,
+      "empty_rate": 0.6194029850746269,
+      "mean_dice_predict_nothing": 0.6194029850746269,
+      "mean_dice_predict_everything": 0.016049351112981076,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.008407204878255225
+    },
+    "papaya_736x552_DPI150": {
+      "n": 546,
+      "empty_rate": 0.10805860805860806,
+      "mean_dice_predict_nothing": 0.10805860805860806,
+      "mean_dice_predict_everything": 0.2448988995740747,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.15339067668049236
+    },
+    "peanut_640x480_DPI120": {
+      "n": 17042,
+      "empty_rate": 0.5007628212651097,
+      "mean_dice_predict_nothing": 0.5007628212651097,
+      "mean_dice_predict_everything": 0.03956594549508628,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.021339228274569202
+    },
+    "peanut_736x552_DPI150": {
+      "n": 19625,
+      "empty_rate": 0.432,
+      "mean_dice_predict_nothing": 0.432,
+      "mean_dice_predict_everything": 0.02882633419134474,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.015128713115921961
+    },
+    "sesame_640x480_DPI120": {
+      "n": 2160,
+      "empty_rate": 0.32407407407407407,
+      "mean_dice_predict_nothing": 0.32407407407407407,
+      "mean_dice_predict_everything": 0.04260474960127979,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.022791387864101082
+    },
+    "sesame_736x552_DPI150": {
+      "n": 14346,
+      "empty_rate": 0.4477206189878712,
+      "mean_dice_predict_nothing": 0.4477206189878712,
+      "mean_dice_predict_everything": 0.03385230708819101,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.017919000447992897
+    },
+    "sunflower_640x480_DPI120": {
+      "n": 3900,
+      "empty_rate": 0.5779487179487179,
+      "mean_dice_predict_nothing": 0.5779487179487179,
+      "mean_dice_predict_everything": 0.022659085329875366,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.011914159321581196
+    },
+    "switchgrass_720x510_DPI300": {
+      "n": 3912,
+      "empty_rate": 0.1142638036809816,
+      "mean_dice_predict_nothing": 0.1142638036809816,
+      "mean_dice_predict_everything": 0.0321350553391045,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.017059193877505555
+    }
+  },
+  "by_official_split": {
+    "test": {
+      "n": 14100,
+      "empty_rate": 0.4495035460992908,
+      "mean_dice_predict_nothing": 0.4495035460992908,
+      "mean_dice_predict_everything": 0.035226682979303904,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.018889524343210732
+    },
+    "train": {
+      "n": 38058,
+      "empty_rate": 0.43346996689263756,
+      "mean_dice_predict_nothing": 0.43346996689263756,
+      "mean_dice_predict_everything": 0.03489788161357354,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.018740879773714886
+    },
+    "val": {
+      "n": 11785,
+      "empty_rate": 0.4712770470937633,
+      "mean_dice_predict_nothing": 0.4712770470937633,
+      "mean_dice_predict_everything": 0.032188366832909016,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.017353167682486022
+    }
+  },
+  "by_species": {
+    "cotton": {
+      "n": 2412,
+      "empty_rate": 0.6194029850746269,
+      "mean_dice_predict_nothing": 0.6194029850746269,
+      "mean_dice_predict_everything": 0.016049351112981076,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.008407204878255225
+    },
+    "papaya": {
+      "n": 546,
+      "empty_rate": 0.10805860805860806,
+      "mean_dice_predict_nothing": 0.10805860805860806,
+      "mean_dice_predict_everything": 0.2448988995740747,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.15339067668049236
+    },
+    "peanut": {
+      "n": 36667,
+      "empty_rate": 0.46395941855074047,
+      "mean_dice_predict_nothing": 0.46395941855074047,
+      "mean_dice_predict_everything": 0.03381786488211202,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.01801522140221935
+    },
+    "sesame": {
+      "n": 16506,
+      "empty_rate": 0.4315400460438628,
+      "mean_dice_predict_nothing": 0.4315400460438628,
+      "mean_dice_predict_everything": 0.03499766488706849,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.018556608397756236
+    },
+    "sunflower": {
+      "n": 3900,
+      "empty_rate": 0.5779487179487179,
+      "mean_dice_predict_nothing": 0.5779487179487179,
+      "mean_dice_predict_everything": 0.022659085329875366,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.011914159321581196
+    },
+    "switchgrass": {
+      "n": 3912,
+      "empty_rate": 0.1142638036809816,
+      "mean_dice_predict_nothing": 0.1142638036809816,
+      "mean_dice_predict_everything": 0.0321350553391045,
+      "mean_dice_nothing_nonempty_only": 0.0,
+      "mean_gt_foreground_fraction": 0.017059193877505555
+    }
+  }
+}

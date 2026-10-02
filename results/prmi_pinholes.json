@@ -1,0 +1,91 @@
+{
+  "pinhole_px": 10,
+  "n_nonempty_masks": 35554,
+  "configs": {
+    "cotton_736x552_DPI150": {
+      "n_masks": 918,
+      "share_with_pinholes": 0.7843137254901961,
+      "pinholes_per_mask_median": 3.0,
+      "pinholes_per_mask_mean": 4.896514161220043,
+      "dice_to_filled_min": 0.9939393939393939,
+      "dice_to_filled_median": 0.9996125345077365
+    },
+    "papaya_736x552_DPI150": {
+      "n_masks": 487,
+      "share_with_pinholes": 0.9630390143737166,
+      "pinholes_per_mask_median": 41.0,
+      "pinholes_per_mask_mean": 54.917864476386036,
+      "dice_to_filled_min": 0.9974497927956647,
+      "dice_to_filled_median": 0.9994910711256376
+    },
+    "peanut_640x480_DPI120": {
+      "n_masks": 8508,
+      "share_with_pinholes": 0.9082040432534085,
+      "pinholes_per_mask_median": 13.0,
+      "pinholes_per_mask_mean": 21.51657263751763,
+      "dice_to_filled_min": 0.9831546707503829,
+      "dice_to_filled_median": 0.9986259961527892
+    },
+    "peanut_736x552_DPI150": {
+      "n_masks": 11147,
+      "share_with_pinholes": 0.8186956131694626,
+      "pinholes_per_mask_median": 7.0,
+      "pinholes_per_mask_mean": 14.609670763434108,
+      "dice_to_filled_min": 0.983957219251337,
+      "dice_to_filled_median": 0.9990764561944512
+    },
+    "sesame_640x480_DPI120": {
+      "n_masks": 1460,
+      "share_with_pinholes": 0.897945205479452,
+      "pinholes_per_mask_median": 10.0,
+      "pinholes_per_mask_mean": 20.50890410958904,
+      "dice_to_filled_min": 0.993006993006993,
+      "dice_to_filled_median": 0.9987657837273332
+    },
+    "sesame_736x552_DPI150": {
+      "n_masks": 7923,
+      "share_with_pinholes": 0.8658336488703774,
+      "pinholes_per_mask_median": 7.0,
+      "pinholes_per_mask_mean": 12.587151331566325,
+      "dice_to_filled_min": 0.9915885604422013,
+      "dice_to_filled_median": 0.9992908026794083
+    },
+    "sunflower_640x480_DPI120": {
+      "n_masks": 1646,
+      "share_with_pinholes": 0.9100850546780073,
+      "pinholes_per_mask_median": 11.0,
+      "pinholes_per_mask_mean": 19.18408262454435,
+      "dice_to_filled_min": 0.9838813668600903,
+      "dice_to_filled_median": 0.9982983889073133
+    },
+    "switchgrass_720x510_DPI300": {
+      "n_masks": 3465,
+      "share_with_pinholes": 0.15324675324675324,
+      "pinholes_per_mask_median": 0.0,
+      "pinholes_per_mask_mean": 0.4176046176046176,
+      "dice_to_filled_min": 0.9968141592920354,
+      "dice_to_filled_median": 0.9998539506353147
+    }
+  },
+  "overall": {
+    "share_with_pinholes": 0.7943410024188559,
+    "pinholes_per_mask_median": 7.0,
+    "pinholes_per_mask_mean": 15.184001800078754
+  },
+  "junctions": {
+    "peanut_640x480_DPI120": {
+      "n_sample": 150,
+      "median_before": 13.0,
+      "median_after": 2.0,
+      "mean_before": 20.293333333333333,
+      "mean_after": 4.093333333333334
+    },
+    "peanut_736x552_DPI150": {
+      "n_sample": 150,
+      "median_before": 6.5,
+      "median_after": 0.5,
+      "mean_before": 13.773333333333333,
+      "mean_after": 2.4466666666666668
+    }
+  }
+}

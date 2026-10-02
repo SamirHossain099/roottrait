@@ -1,0 +1,164 @@
+{
+  "overall": {
+    "n": 3000,
+    "n_empty": 1357,
+    "empty_rate": 0.4523333333333333,
+    "median_frac_nonempty": 0.021188151041666665,
+    "median_fg_px_nonempty": 7747.0,
+    "max_frac": 0.43586316556395716
+  },
+  "by_config": {
+    "cotton_736x552_DPI150": {
+      "n": 142,
+      "n_empty": 88,
+      "empty_rate": 0.6197183098591549,
+      "median_frac_nonempty": 0.014517367674858223,
+      "median_fg_px_nonempty": 5898.0,
+      "max_frac": 0.1536630631695022
+    },
+    "papaya_736x552_DPI150": {
+      "n": 26,
+      "n_empty": 2,
+      "empty_rate": 0.07692307692307693,
+      "median_frac_nonempty": 0.14778153552299939,
+      "median_fg_px_nonempty": 60039.5,
+      "max_frac": 0.43586316556395716
+    },
+    "peanut_640x480_DPI120": {
+      "n": 761,
+      "n_empty": 390,
+      "empty_rate": 0.5124835742444153,
+      "median_frac_nonempty": 0.029736328125,
+      "median_fg_px_nonempty": 9135.0,
+      "max_frac": 0.2680794270833333
+    },
+    "peanut_736x552_DPI150": {
+      "n": 926,
+      "n_empty": 397,
+      "empty_rate": 0.4287257019438445,
+      "median_frac_nonempty": 0.01776149968494014,
+      "median_fg_px_nonempty": 7216.0,
+      "max_frac": 0.1711858065532451
+    },
+    "sesame_640x480_DPI120": {
+      "n": 103,
+      "n_empty": 38,
+      "empty_rate": 0.36893203883495146,
+      "median_frac_nonempty": 0.024033203125,
+      "median_fg_px_nonempty": 7383.0,
+      "max_frac": 0.12078450520833334
+    },
+    "sesame_736x552_DPI150": {
+      "n": 688,
+      "n_empty": 312,
+      "empty_rate": 0.45348837209302323,
+      "median_frac_nonempty": 0.021237003780718335,
+      "median_fg_px_nonempty": 8628.0,
+      "max_frac": 0.15199669187145556
+    },
+    "sunflower_640x480_DPI120": {
+      "n": 179,
+      "n_empty": 108,
+      "empty_rate": 0.6033519553072626,
+      "median_frac_nonempty": 0.017194010416666666,
+      "median_fg_px_nonempty": 5282.0,
+      "max_frac": 0.109765625
+    },
+    "switchgrass_720x510_DPI300": {
+      "n": 175,
+      "n_empty": 22,
+      "empty_rate": 0.12571428571428572,
+      "median_frac_nonempty": 0.010678104575163399,
+      "median_fg_px_nonempty": 3921.0,
+      "max_frac": 0.37714596949891066
+    }
+  },
+  "by_official_split": {
+    "test": {
+      "n": 641,
+      "n_empty": 295,
+      "empty_rate": 0.46021840873634945,
+      "median_frac_nonempty": 0.021191655467273154,
+      "median_fg_px_nonempty": 7867.5,
+      "max_frac": 0.2794704040642722
+    },
+    "train": {
+      "n": 1830,
+      "n_empty": 804,
+      "empty_rate": 0.43934426229508194,
+      "median_frac_nonempty": 0.021982421874999998,
+      "median_fg_px_nonempty": 8004.5,
+      "max_frac": 0.43586316556395716
+    },
+    "val": {
+      "n": 529,
+      "n_empty": 258,
+      "empty_rate": 0.4877126654064272,
+      "median_frac_nonempty": 0.019085735664776306,
+      "median_fg_px_nonempty": 6883.0,
+      "max_frac": 0.3792680765595463
+    }
+  },
+  "by_species": {
+    "cotton": {
+      "n": 142,
+      "n_empty": 88,
+      "empty_rate": 0.6197183098591549,
+      "median_frac_nonempty": 0.014517367674858223,
+      "median_fg_px_nonempty": 5898.0,
+      "max_frac": 0.1536630631695022
+    },
+    "papaya": {
+      "n": 26,
+      "n_empty": 2,
+      "empty_rate": 0.07692307692307693,
+      "median_frac_nonempty": 0.14778153552299939,
+      "median_fg_px_nonempty": 60039.5,
+      "max_frac": 0.43586316556395716
+    },
+    "peanut": {
+      "n": 1687,
+      "n_empty": 787,
+      "empty_rate": 0.46650859513930054,
+      "median_frac_nonempty": 0.022282780994013863,
+      "median_fg_px_nonempty": 7918.5,
+      "max_frac": 0.2680794270833333
+    },
+    "sesame": {
+      "n": 791,
+      "n_empty": 350,
+      "empty_rate": 0.4424778761061947,
+      "median_frac_nonempty": 0.022290485192186515,
+      "median_fg_px_nonempty": 8496.0,
+      "max_frac": 0.15199669187145556
+    },
+    "sunflower": {
+      "n": 179,
+      "n_empty": 108,
+      "empty_rate": 0.6033519553072626,
+      "median_frac_nonempty": 0.017194010416666666,
+      "median_fg_px_nonempty": 5282.0,
+      "max_frac": 0.109765625
+    },
+    "switchgrass": {
+      "n": 175,
+      "n_empty": 22,
+      "empty_rate": 0.12571428571428572,
+      "median_frac_nonempty": 0.010678104575163399,
+      "median_fg_px_nonempty": 3921.0,
+      "max_frac": 0.37714596949891066
+    }
+  },
+  "groups": {
+    "n_tubes_total": 125,
+    "n_tubes_with_any_nonempty_mask": 122,
+    "tubes_entirely_empty": [
+      "cotton/T011",
+      "switchgrass/T262",
+      "switchgrass/T351"
+    ]
+  },
+  "n_failed": 0,
+  "failures": [],
+  "sampled": 3000
+}

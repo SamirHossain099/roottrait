@@ -1,0 +1,16 @@
+{
+  "arch": "unet_r50",
+  "seed": 1,
+  "config": "peanut_640x480_DPI120",
+  "size": 320,
+  "epochs": 20,
+  "batch": 16,
+  "lr": 0.0003,
+  "n_test": 3542,
+  "n_test_nonempty": 1683,
+  "mean_dice_all_frames": 0.8327067542825591,
+  "mean_dice_nonempty_only": 0.6942646011104127,
+  "mean_dice_empty_only": 0.958041958041958,
+  "pred_empty_rate": 0.551665725578769,
+  "train_seconds": 887.5152344703674
+}

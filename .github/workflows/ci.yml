@@ -1,0 +1,79 @@
+name: CI
+on: [push, pull_request]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          # CPU PyTorch: the study-driver tests import it, nothing here trains.
+          pip install torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -e ".[analysis,train,dev]" build imageio
+      - name: Lint
+        run: ruff check src tests
+      - name: Test
+        run: pytest tests -q
+
+  # The library must install and work with nothing else present: no analysis scripts, no results,
+  # no deep-learning stack.
+  artifact:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build
+        run: |
+          python -m pip install --upgrade pip build
+          python -m build
+      - name: Install the wheel alone, in a clean environment
+        run: |
+          python -m venv /tmp/clean
+          /tmp/clean/bin/pip install --upgrade pip
+          /tmp/clean/bin/pip install dist/*.whl
+      - name: Use it from outside the repository
+        run: |
+          cd /tmp
+          /tmp/clean/bin/python - <<'EOF'
+          import numpy as np
+          from roottrait import (DEGRADATIONS, SEVERITY_BOUNDS, TRAITS, decompose, dice,
+                                 fill_pinholes, generate, solve_severity)
+          m = generate("taproot", size=256, seed=0, thickness=5)
+          for name in DEGRADATIONS:
+              fn = DEGRADATIONS[name][0]
+              lo, hi = SEVERITY_BOUNDS[name]
+              sev, _ = solve_severity(fn, m, 0.01, lo, hi, rng_seed=1)
+              if np.isfinite(sev):
+                  d = fn(m, sev, np.random.default_rng(1))
+                  assert abs((1 - dice(m, d)) - 0.01) < 0.003, name
+          assert {k: f(m) for k, f in TRAITS.items()}["n_components"] == 1.0
+          # a one-pixel hole strictly inside the root is filled back exactly
+          inner = m.copy()
+          inner[1:-1, 1:-1] &= (m[:-2, 1:-1] & m[2:, 1:-1] & m[1:-1, :-2] & m[1:-1, 2:]
+                                & m[:-2, :-2] & m[:-2, 2:] & m[2:, :-2] & m[2:, 2:])
+          inner[[0, -1], :] = False; inner[:, [0, -1]] = False
+          y, x = np.argwhere(inner)[0]
+          h = m.copy(); h[y, x] = False
+          assert dice(h, m) < 1.0 and (fill_pinholes(h) == fill_pinholes(m)).all()
+          # an eroded prediction has only false negatives, and every one is counted
+          e = m & inner
+          d = decompose(m, e)
+          assert d["over_inclusive"] == d["false_positive"] == 0
+          assert d["under_inclusive"] + d["lost_structure"] == int((m & ~e).sum())
+          print("artifact OK")
+          EOF
+      - name: The wheel pulls no analysis dependency
+        run: |
+          test -z "$(/tmp/clean/bin/pip list --format=freeze | grep -iE '^(torch|pandas|matplotlib|groupeval)=' || true)" \
+            || (echo "the wheel pulled a dependency the library never imports"; exit 1)

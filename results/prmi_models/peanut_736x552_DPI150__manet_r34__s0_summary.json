@@ -1,0 +1,16 @@
+{
+  "arch": "manet_r34",
+  "seed": 0,
+  "config": "peanut_736x552_DPI150",
+  "size": 320,
+  "epochs": 20,
+  "batch": 16,
+  "lr": 0.0003,
+  "n_test": 4793,
+  "n_test_nonempty": 2796,
+  "mean_dice_all_frames": 0.6416848059268712,
+  "mean_dice_nonempty_only": 0.482330212735155,
+  "mean_dice_empty_only": 0.8647971957936905,
+  "pred_empty_rate": 0.4537867723763822,
+  "train_seconds": 863.0515787601471
+}

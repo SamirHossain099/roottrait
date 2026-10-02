@@ -1,0 +1,5546 @@
+{
+  "config": "peanut_640x480_DPI120",
+  "fill_px": 10,
+  "n_models": 18,
+  "n_test_frames": 3542,
+  "n_test_nonempty": 1683,
+  "n_test_tubes": 7,
+  "null_dice_all_frames": 0.5248447204968945,
+  "trait_frames": 600,
+  "fingerprint_frames": 250,
+  "models": [
+    {
+      "tag": "peanut_640x480_DPI120__deeplabv3p_r34__s0",
+      "arch": "deeplabv3p_r34",
+      "seed": 0,
+      "mean_dice_all_frames": 0.8403497934341431,
+      "mean_dice_nonempty_only": 0.6960898041725159,
+      "mean_dice_empty_only": 0.9709521532058716,
+      "pred_empty_rate": 0.5564652738565782,
+      "dice_on_trait_frames": 0.715601921081543,
+      "err_pixel_area": 0.1378823499135784,
+      "err_convex_hull_area": 0.10184695024388166,
+      "err_bounding_depth": 0.0219435736677116,
+      "err_bounding_width": 0.024896694214876034,
+      "err_total_length": 0.119249574682914,
+      "err_mean_diameter": 0.15284988634741814,
+      "err_n_tips": 0.4,
+      "err_n_branch_points": 0.7602627257799671,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.020853817450480445,
+      "err_lacunarity": 0.05264967396053856,
+      "decomp_nonempty": {
+        "over_inclusive": 0.41824948575921816,
+        "false_positive": 0.019624086664687155,
+        "under_inclusive": 0.1267061429693836,
+        "lost_structure": 0.43542028460671106
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4369934935202733,
+        "false_positive": 0.0162949089256257,
+        "under_inclusive": 0.1391825827988816,
+        "lost_structure": 0.40752901475521947
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.40973678449001416,
+        "false_positive": 0.039577840502775796,
+        "under_inclusive": 0.12412727179130315,
+        "lost_structure": 0.4265581032159069
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__deeplabv3p_r34__s1",
+      "arch": "deeplabv3p_r34",
+      "seed": 1,
+      "mean_dice_all_frames": 0.838450379664569,
+      "mean_dice_nonempty_only": 0.6956573052714815,
+      "mean_dice_empty_only": 0.9677245831091985,
+      "pred_empty_rate": 0.554488989271598,
+      "dice_on_trait_frames": 0.7114518508712367,
+      "err_pixel_area": 0.13749311746135776,
+      "err_convex_hull_area": 0.09362247882291008,
+      "err_bounding_depth": 0.024815270935960594,
+      "err_bounding_width": 0.026143790849673203,
+      "err_total_length": 0.11243791734987287,
+      "err_mean_diameter": 0.1512513483856908,
+      "err_n_tips": 0.4,
+      "err_n_branch_points": 0.75,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.01995915769461507,
+      "err_lacunarity": 0.05210077591941952,
+      "decomp_nonempty": {
+        "over_inclusive": 0.4343327436013558,
+        "false_positive": 0.022007606445577244,
+        "under_inclusive": 0.12883852051969544,
+        "lost_structure": 0.4148211294333715
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.446740225094237,
+        "false_positive": 0.020259308950798027,
+        "under_inclusive": 0.14016207695055743,
+        "lost_structure": 0.39283838900440754
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.42475695347979725,
+        "false_positive": 0.04356953111997712,
+        "under_inclusive": 0.12599800100960967,
+        "lost_structure": 0.40567551439061594
+      },
+      "dominant_error_nonempty": "over_inclusive"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__deeplabv3p_r34__s2",
+      "arch": "deeplabv3p_r34",
+      "seed": 2,
+      "mean_dice_all_frames": 0.8381870354270364,
+      "mean_dice_nonempty_only": 0.6879729527525624,
+      "mean_dice_empty_only": 0.9741796664873588,
+      "pred_empty_rate": 0.5601355166572558,
+      "dice_on_trait_frames": 0.7078995899561755,
+      "err_pixel_area": 0.14475574151818865,
+      "err_convex_hull_area": 0.10722541009840084,
+      "err_bounding_depth": 0.0219435736677116,
+      "err_bounding_width": 0.026143790849673203,
+      "err_total_length": 0.11818755568755568,
+      "err_mean_diameter": 0.16398952803710365,
+      "err_n_tips": 0.3944444444444445,
+      "err_n_branch_points": 0.7106848446417248,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.022156969605969447,
+      "err_lacunarity": 0.057902635870324494,
+      "decomp_nonempty": {
+        "over_inclusive": 0.4284738923177683,
+        "false_positive": 0.019976652231683795,
+        "under_inclusive": 0.12697458480750765,
+        "lost_structure": 0.42457487064304034
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4443012692444473,
+        "false_positive": 0.018822831730947877,
+        "under_inclusive": 0.13598671380909252,
+        "lost_structure": 0.40088918521551237
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.419992971315697,
+        "false_positive": 0.03937456828124432,
+        "under_inclusive": 0.12446133617712285,
+        "lost_structure": 0.41617112422593583
+      },
+      "dominant_error_nonempty": "over_inclusive"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__fpn_r34__s0",
+      "arch": "fpn_r34",
+      "seed": 0,
+      "mean_dice_all_frames": 0.8386896848678589,
+      "mean_dice_nonempty_only": 0.6842774152755737,
+      "mean_dice_empty_only": 0.9784830808639526,
+      "pred_empty_rate": 0.5660643704121965,
+      "dice_on_trait_frames": 0.6992291212081909,
+      "err_pixel_area": 0.1509635555012493,
+      "err_convex_hull_area": 0.10690737679745059,
+      "err_bounding_depth": 0.025,
+      "err_bounding_width": 0.02627264883520276,
+      "err_total_length": 0.13455783330839444,
+      "err_mean_diameter": 0.18597553785243434,
+      "err_n_tips": 0.42857142857142855,
+      "err_n_branch_points": 0.7752525252525253,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.024125295068469124,
+      "err_lacunarity": 0.059957329708343596,
+      "decomp_nonempty": {
+        "over_inclusive": 0.4473544065430174,
+        "false_positive": 0.017078465813854127,
+        "under_inclusive": 0.10698135279002138,
+        "lost_structure": 0.4285857748531071
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.465974830977915,
+        "false_positive": 0.017542348846583233,
+        "under_inclusive": 0.11718641711456361,
+        "lost_structure": 0.39929640306093817
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.44249607256993745,
+        "false_positive": 0.027753136751624777,
+        "under_inclusive": 0.10581951972624933,
+        "lost_structure": 0.42393127095218847
+      },
+      "dominant_error_nonempty": "over_inclusive"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__fpn_r34__s1",
+      "arch": "fpn_r34",
+      "seed": 1,
+      "mean_dice_all_frames": 0.8362733617634065,
+      "mean_dice_nonempty_only": 0.6780037120415844,
+      "mean_dice_empty_only": 0.9795589026358257,
+      "pred_empty_rate": 0.572557876905703,
+      "dice_on_trait_frames": 0.6943977734545281,
+      "err_pixel_area": 0.15085936531695554,
+      "err_convex_hull_area": 0.0994311752560732,
+      "err_bounding_depth": 0.02232905982905983,
+      "err_bounding_width": 0.029221087252142564,
+      "err_total_length": 0.124893859376618,
+      "err_mean_diameter": 0.18364022511936173,
+      "err_n_tips": 0.42857142857142855,
+      "err_n_branch_points": 0.7981481481481482,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.02168381925617618,
+      "err_lacunarity": 0.05996811864711625,
+      "decomp_nonempty": {
+        "over_inclusive": 0.43419571246773836,
+        "false_positive": 0.021901085776628793,
+        "under_inclusive": 0.11264546591430499,
+        "lost_structure": 0.43125773584132787
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4479053700231799,
+        "false_positive": 0.020543856961861093,
+        "under_inclusive": 0.12476353938187117,
+        "lost_structure": 0.40678723363308783
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.4280941938392802,
+        "false_positive": 0.035645783327164816,
+        "under_inclusive": 0.11106251981660821,
+        "lost_structure": 0.42519750301694675
+      },
+      "dominant_error_nonempty": "over_inclusive"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__fpn_r34__s2",
+      "arch": "fpn_r34",
+      "seed": 2,
+      "mean_dice_all_frames": 0.8351520408259333,
+      "mean_dice_nonempty_only": 0.6786146931702055,
+      "mean_dice_empty_only": 0.9768692845615923,
+      "pred_empty_rate": 0.5686053077357425,
+      "dice_on_trait_frames": 0.6955651582481598,
+      "err_pixel_area": 0.14086737306345015,
+      "err_convex_hull_area": 0.1133446299623608,
+      "err_bounding_depth": 0.02329457364341085,
+      "err_bounding_width": 0.028388942617666023,
+      "err_total_length": 0.13255139276081684,
+      "err_mean_diameter": 0.16040791377420005,
+      "err_n_tips": 0.42857142857142855,
+      "err_n_branch_points": 0.8,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.02150275981813855,
+      "err_lacunarity": 0.06501779651950859,
+      "decomp_nonempty": {
+        "over_inclusive": 0.40279450638878156,
+        "false_positive": 0.02122960240573585,
+        "under_inclusive": 0.12085442567097975,
+        "lost_structure": 0.45512146553450283
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.42487942183047167,
+        "false_positive": 0.02108387622968683,
+        "under_inclusive": 0.13053457722209127,
+        "lost_structure": 0.4235021247177503
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.39692472005539303,
+        "false_positive": 0.03549288805685331,
+        "under_inclusive": 0.11909325553364841,
+        "lost_structure": 0.4484891363541052
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__manet_r34__s0",
+      "arch": "manet_r34",
+      "seed": 0,
+      "mean_dice_all_frames": 0.8006731602721698,
+      "mean_dice_nonempty_only": 0.6036745892359032,
+      "mean_dice_empty_only": 0.9790209790209791,
+      "pred_empty_rate": 0.5824392998306042,
+      "dice_on_trait_frames": 0.6160639925850059,
+      "err_pixel_area": 0.20425503957457333,
+      "err_convex_hull_area": 0.24794142862121715,
+      "err_bounding_depth": 0.058055775839280996,
+      "err_bounding_width": 0.05624031007751938,
+      "err_total_length": 0.19658119658119658,
+      "err_mean_diameter": 0.2010229813306667,
+      "err_n_tips": 0.4375,
+      "err_n_branch_points": 0.729020979020979,
+      "err_n_components": 1.0,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.03222786914709924,
+      "err_lacunarity": 0.10798057987476839,
+      "decomp_nonempty": {
+        "over_inclusive": 0.30960874064493255,
+        "false_positive": 0.05923018461785379,
+        "under_inclusive": 0.07958776599232031,
+        "lost_structure": 0.5515733087448934
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.34088802998945533,
+        "false_positive": 0.05330623707680829,
+        "under_inclusive": 0.0918604460380733,
+        "lost_structure": 0.5139452868956631
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.30723412981575715,
+        "false_positive": 0.06644562106423542,
+        "under_inclusive": 0.07897735050275254,
+        "lost_structure": 0.5473428986172549
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__manet_r34__s1",
+      "arch": "manet_r34",
+      "seed": 1,
+      "mean_dice_all_frames": 0.8351176810426594,
+      "mean_dice_nonempty_only": 0.6886433905247175,
+      "mean_dice_empty_only": 0.9677245831091985,
+      "pred_empty_rate": 0.5561829474872954,
+      "dice_on_trait_frames": 0.7100963761742667,
+      "err_pixel_area": 0.14195256352802538,
+      "err_convex_hull_area": 0.1131126527307254,
+      "err_bounding_depth": 0.02830188679245283,
+      "err_bounding_width": 0.026186649523197256,
+      "err_total_length": 0.1183475844954549,
+      "err_mean_diameter": 0.17897737201753827,
+      "err_n_tips": 0.38585607940446653,
+      "err_n_branch_points": 0.7142857142857143,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.02327192556857341,
+      "err_lacunarity": 0.06002375339568013,
+      "decomp_nonempty": {
+        "over_inclusive": 0.40531829195038704,
+        "false_positive": 0.02614506097627226,
+        "under_inclusive": 0.11559182761184415,
+        "lost_structure": 0.45294481946149656
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4429248963364538,
+        "false_positive": 0.029849410071721847,
+        "under_inclusive": 0.12867635580087664,
+        "lost_structure": 0.3985493377909477
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.4002734573190453,
+        "false_positive": 0.03826624380927272,
+        "under_inclusive": 0.11415310237635024,
+        "lost_structure": 0.44730719649533174
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__manet_r34__s2",
+      "arch": "manet_r34",
+      "seed": 2,
+      "mean_dice_all_frames": 0.8064060097326544,
+      "mean_dice_nonempty_only": 0.6603030816833404,
+      "mean_dice_empty_only": 0.9386767079074771,
+      "pred_empty_rate": 0.5321852060982496,
+      "dice_on_trait_frames": 0.6782821075054514,
+      "err_pixel_area": 0.1645866321098357,
+      "err_convex_hull_area": 0.17743405318092015,
+      "err_bounding_depth": 0.03799874861625836,
+      "err_bounding_width": 0.039116927678022884,
+      "err_total_length": 0.15438070460084768,
+      "err_mean_diameter": 0.17240988150954778,
+      "err_n_tips": 0.375,
+      "err_n_branch_points": 0.7647058823529411,
+      "err_n_components": 0.5,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.029889352940367944,
+      "err_lacunarity": 0.08359163939792863,
+      "decomp_nonempty": {
+        "over_inclusive": 0.339152103908276,
+        "false_positive": 0.040901419608075675,
+        "under_inclusive": 0.1008846607658578,
+        "lost_structure": 0.5190618157177905
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.3820707287335953,
+        "false_positive": 0.04625984671740324,
+        "under_inclusive": 0.11372877288242397,
+        "lost_structure": 0.45794065166657744
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.33418794182308725,
+        "false_positive": 0.05493972499929799,
+        "under_inclusive": 0.09940801414571344,
+        "lost_structure": 0.5114643190319014
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unet_r34__s0",
+      "arch": "unet_r34",
+      "seed": 0,
+      "mean_dice_all_frames": 0.8373081684112549,
+      "mean_dice_nonempty_only": 0.6795872449874878,
+      "mean_dice_empty_only": 0.9800968170166016,
+      "pred_empty_rate": 0.564652738565782,
+      "dice_on_trait_frames": 0.7020077109336853,
+      "err_pixel_area": 0.14507366935683125,
+      "err_convex_hull_area": 0.10971938428067819,
+      "err_bounding_depth": 0.028125,
+      "err_bounding_width": 0.02771732172577135,
+      "err_total_length": 0.12999048230212923,
+      "err_mean_diameter": 0.1807743645285896,
+      "err_n_tips": 0.4202037351443124,
+      "err_n_branch_points": 0.7659574468085106,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.02261710767871315,
+      "err_lacunarity": 0.06010111788907556,
+      "decomp_nonempty": {
+        "over_inclusive": 0.40102387384732774,
+        "false_positive": 0.029656671929231427,
+        "under_inclusive": 0.1083181608111587,
+        "lost_structure": 0.46100129341228213
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.43749152485088333,
+        "false_positive": 0.03139084888024181,
+        "under_inclusive": 0.12197081684987526,
+        "lost_structure": 0.40914680941899956
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.39643940952616324,
+        "false_positive": 0.04074953860607675,
+        "under_inclusive": 0.10707987856424697,
+        "lost_structure": 0.45573117330351304
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unet_r34__s1",
+      "arch": "unet_r34",
+      "seed": 1,
+      "mean_dice_all_frames": 0.83676870283645,
+      "mean_dice_nonempty_only": 0.6855821422737408,
+      "mean_dice_empty_only": 0.9736417428725122,
+      "pred_empty_rate": 0.5598531902879729,
+      "dice_on_trait_frames": 0.7059323486577409,
+      "err_pixel_area": 0.1549751048189144,
+      "err_convex_hull_area": 0.10464869593477129,
+      "err_bounding_depth": 0.023431372549019606,
+      "err_bounding_width": 0.02512626262626263,
+      "err_total_length": 0.11534638323902738,
+      "err_mean_diameter": 0.18480111152886353,
+      "err_n_tips": 0.4,
+      "err_n_branch_points": 0.75,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.024020097336453092,
+      "err_lacunarity": 0.06180921591211887,
+      "decomp_nonempty": {
+        "over_inclusive": 0.42555558528806653,
+        "false_positive": 0.03502387264314743,
+        "under_inclusive": 0.11020478215655644,
+        "lost_structure": 0.42921575991222966
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4510578028483186,
+        "false_positive": 0.03451843647280528,
+        "under_inclusive": 0.12561110875691886,
+        "lost_structure": 0.38881265192195724
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.41824393116423947,
+        "false_positive": 0.051603543842169156,
+        "under_inclusive": 0.10831130624464941,
+        "lost_structure": 0.421841218748942
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unet_r34__s2",
+      "arch": "unet_r34",
+      "seed": 2,
+      "mean_dice_all_frames": 0.8327148958619093,
+      "mean_dice_nonempty_only": 0.6901224962227466,
+      "mean_dice_empty_only": 0.9618074233458849,
+      "pred_empty_rate": 0.5533596837944664,
+      "dice_on_trait_frames": 0.7112551255712862,
+      "err_pixel_area": 0.1441104015749166,
+      "err_convex_hull_area": 0.10202261346876403,
+      "err_bounding_depth": 0.02232905982905983,
+      "err_bounding_width": 0.026143790849673203,
+      "err_total_length": 0.11849431130476881,
+      "err_mean_diameter": 0.17204232396092706,
+      "err_n_tips": 0.4166666666666667,
+      "err_n_branch_points": 0.7651515151515151,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.022666768825641042,
+      "err_lacunarity": 0.05881765278860404,
+      "decomp_nonempty": {
+        "over_inclusive": 0.4262284631115622,
+        "false_positive": 0.02552582919218768,
+        "under_inclusive": 0.11607528678166407,
+        "lost_structure": 0.432170420914586
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4519956809019586,
+        "false_positive": 0.02537701292223226,
+        "under_inclusive": 0.12822984808478405,
+        "lost_structure": 0.3943974580910251
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.4169073364505215,
+        "false_positive": 0.046836459429555784,
+        "under_inclusive": 0.1135368536549554,
+        "lost_structure": 0.4227193504649673
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unet_r50__s0",
+      "arch": "unet_r50",
+      "seed": 0,
+      "mean_dice_all_frames": 0.8321722878949743,
+      "mean_dice_nonempty_only": 0.6735319332881754,
+      "mean_dice_empty_only": 0.9757934373318988,
+      "pred_empty_rate": 0.5635234330886505,
+      "dice_on_trait_frames": 0.6923812702734009,
+      "err_pixel_area": 0.15779287320789298,
+      "err_convex_hull_area": 0.1365786463796362,
+      "err_bounding_depth": 0.025078369905956112,
+      "err_bounding_width": 0.032467532467532464,
+      "err_total_length": 0.13012455691912272,
+      "err_mean_diameter": 0.200406842510452,
+      "err_n_tips": 0.42857142857142855,
+      "err_n_branch_points": 0.7777777777777778,
+      "err_n_components": 0.25,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.022522684184947524,
+      "err_lacunarity": 0.06310767648910302,
+      "decomp_nonempty": {
+        "over_inclusive": 0.3997919894591726,
+        "false_positive": 0.022841204387131407,
+        "under_inclusive": 0.10265320189832494,
+        "lost_structure": 0.47471360425537107
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4444219817028738,
+        "false_positive": 0.023284146823733504,
+        "under_inclusive": 0.12039304881327506,
+        "lost_structure": 0.4119008226601176
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.39452548076763905,
+        "false_positive": 0.03571343651230554,
+        "under_inclusive": 0.1013009387358173,
+        "lost_structure": 0.46846014398423813
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unet_r50__s1",
+      "arch": "unet_r50",
+      "seed": 1,
+      "mean_dice_all_frames": 0.8327067542825591,
+      "mean_dice_nonempty_only": 0.6942646011104127,
+      "mean_dice_empty_only": 0.958041958041958,
+      "pred_empty_rate": 0.551665725578769,
+      "dice_on_trait_frames": 0.7130539311960854,
+      "err_pixel_area": 0.1401215293899155,
+      "err_convex_hull_area": 0.11609350866394122,
+      "err_bounding_depth": 0.0220125786163522,
+      "err_bounding_width": 0.026186649523197256,
+      "err_total_length": 0.11844052590519022,
+      "err_mean_diameter": 0.16628099764772147,
+      "err_n_tips": 0.42857142857142855,
+      "err_n_branch_points": 0.7703296703296704,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.021423499549867414,
+      "err_lacunarity": 0.05951217220669755,
+      "decomp_nonempty": {
+        "over_inclusive": 0.40937418190868846,
+        "false_positive": 0.029462893634911076,
+        "under_inclusive": 0.11835065053976294,
+        "lost_structure": 0.4428122739166375
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.440504016926766,
+        "false_positive": 0.029032122927445787,
+        "under_inclusive": 0.13533217865871985,
+        "lost_structure": 0.3951316814870683
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.4022557665300966,
+        "false_positive": 0.04633910754569522,
+        "under_inclusive": 0.11629270666323262,
+        "lost_structure": 0.4351124192609756
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unet_r50__s2",
+      "arch": "unet_r50",
+      "seed": 2,
+      "mean_dice_all_frames": 0.8374315200108483,
+      "mean_dice_nonempty_only": 0.6828178513834963,
+      "mean_dice_empty_only": 0.9774072081764389,
+      "pred_empty_rate": 0.5632411067193676,
+      "dice_on_trait_frames": 0.7045835736345558,
+      "err_pixel_area": 0.1430764731685919,
+      "err_convex_hull_area": 0.1078204427189639,
+      "err_bounding_depth": 0.02197802197802198,
+      "err_bounding_width": 0.026143790849673203,
+      "err_total_length": 0.12020864558445991,
+      "err_mean_diameter": 0.17501688785345013,
+      "err_n_tips": 0.4,
+      "err_n_branch_points": 0.7818918918918919,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.021548374999863888,
+      "err_lacunarity": 0.057945399251335704,
+      "decomp_nonempty": {
+        "over_inclusive": 0.38758186546207113,
+        "false_positive": 0.024006252511834573,
+        "under_inclusive": 0.11526175037779245,
+        "lost_structure": 0.47315013164830183
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.42859978195030735,
+        "false_positive": 0.024378062742661643,
+        "under_inclusive": 0.13178003444423506,
+        "lost_structure": 0.41524212086279594
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.3832412944231013,
+        "false_positive": 0.03493651156694349,
+        "under_inclusive": 0.1139709216260541,
+        "lost_structure": 0.4678512723839011
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unetpp_r34__s0",
+      "arch": "unetpp_r34",
+      "seed": 0,
+      "mean_dice_all_frames": 0.8399350409496789,
+      "mean_dice_nonempty_only": 0.6910575846962347,
+      "mean_dice_empty_only": 0.9747175901022055,
+      "pred_empty_rate": 0.5626764539808018,
+      "dice_on_trait_frames": 0.7120612157784788,
+      "err_pixel_area": 0.13222140709066993,
+      "err_convex_hull_area": 0.09916697868041448,
+      "err_bounding_depth": 0.022187060478199717,
+      "err_bounding_width": 0.025390481102188167,
+      "err_total_length": 0.12359452082237748,
+      "err_mean_diameter": 0.1682012672434514,
+      "err_n_tips": 0.4166666666666667,
+      "err_n_branch_points": 0.8,
+      "err_n_components": 0.25,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.020726821164586774,
+      "err_lacunarity": 0.05537516496741361,
+      "decomp_nonempty": {
+        "over_inclusive": 0.4034301799262359,
+        "false_positive": 0.02118094230068609,
+        "under_inclusive": 0.12277047429173638,
+        "lost_structure": 0.45261840348134164
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4325923373127534,
+        "false_positive": 0.02062867072771108,
+        "under_inclusive": 0.13786045953563952,
+        "lost_structure": 0.408918532423896
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.3983951652220365,
+        "false_positive": 0.033397104088998014,
+        "under_inclusive": 0.12123823606549991,
+        "lost_structure": 0.4469694946234656
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unetpp_r34__s1",
+      "arch": "unetpp_r34",
+      "seed": 1,
+      "mean_dice_all_frames": 0.8467689590879577,
+      "mean_dice_nonempty_only": 0.6983099543015724,
+      "mean_dice_empty_only": 0.9811726734803657,
+      "pred_empty_rate": 0.5660643704121965,
+      "dice_on_trait_frames": 0.7183590741762057,
+      "err_pixel_area": 0.1246377842682802,
+      "err_convex_hull_area": 0.09351899976899977,
+      "err_bounding_depth": 0.021875,
+      "err_bounding_width": 0.025641699978960656,
+      "err_total_length": 0.10646438581661254,
+      "err_mean_diameter": 0.1498372284852987,
+      "err_n_tips": 0.41801075268817206,
+      "err_n_branch_points": 0.77096018735363,
+      "err_n_components": 0.29166666666666663,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.02038208963074016,
+      "err_lacunarity": 0.05234424489242922,
+      "decomp_nonempty": {
+        "over_inclusive": 0.3970443739594476,
+        "false_positive": 0.025683169311073256,
+        "under_inclusive": 0.1344871695544715,
+        "lost_structure": 0.44278528717500765
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.4261879285956485,
+        "false_positive": 0.028105632659253754,
+        "under_inclusive": 0.15042230068439974,
+        "lost_structure": 0.39528413806069806
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.3926338287518085,
+        "false_positive": 0.03650631329738261,
+        "under_inclusive": 0.13299322635801658,
+        "lost_structure": 0.4378666315927923
+      },
+      "dominant_error_nonempty": "lost_structure"
+    },
+    {
+      "tag": "peanut_640x480_DPI120__unetpp_r34__s2",
+      "arch": "unetpp_r34",
+      "seed": 2,
+      "mean_dice_all_frames": 0.8346769511472223,
+      "mean_dice_nonempty_only": 0.6954401431749623,
+      "mean_dice_empty_only": 0.9607315761161915,
+      "pred_empty_rate": 0.551948051948052,
+      "dice_on_trait_frames": 0.7165801110190293,
+      "err_pixel_area": 0.13304973512817142,
+      "err_convex_hull_area": 0.09964367236481765,
+      "err_bounding_depth": 0.022047298771898496,
+      "err_bounding_width": 0.022950819672131147,
+      "err_total_length": 0.11304648862512363,
+      "err_mean_diameter": 0.15804719303974774,
+      "err_n_tips": 0.40588235294117647,
+      "err_n_branch_points": 0.7653558052434457,
+      "err_n_components": 0.3333333333333333,
+      "err_n_holes": 0.0,
+      "err_fractal_dimension": 0.022073119494222606,
+      "err_lacunarity": 0.05416139556517256,
+      "decomp_nonempty": {
+        "over_inclusive": 0.4063668255389156,
+        "false_positive": 0.03134476890942669,
+        "under_inclusive": 0.12679263542447922,
+        "lost_structure": 0.43549577012717844
+      },
+      "decomp_nonempty_frame_weighted": {
+        "over_inclusive": 0.43495384354213246,
+        "false_positive": 0.030616487975530134,
+        "under_inclusive": 0.1383218746983983,
+        "lost_structure": 0.3961077937839391
+      },
+      "decomp_all_frames": {
+        "over_inclusive": 0.39735524854437104,
+        "false_positive": 0.05282563458925855,
+        "under_inclusive": 0.12398088622484014,
+        "lost_structure": 0.4258382306415303
+      },
+      "dominant_error_nonempty": "lost_structure"
+    }
+  ],
+  "best_by_dice": "peanut_640x480_DPI120__unetpp_r34__s1",
+  "rank_inversion": {
+    "pixel_area": {
+      "kind": "integral",
+      "spearman_dice_vs_trait_error": -0.8575851393188855,
+      "spearman_without_two_weakest": -0.7970588235294117,
+      "error_min": 0.1246377842682802,
+      "error_max": 0.20425503957457333,
+      "error_spread_ratio": 1.6387890780769871,
+      "best_by_dice_is_best_by_trait": true,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unetpp_r34__s1"
+    },
+    "convex_hull_area": {
+      "kind": "extremum",
+      "spearman_dice_vs_trait_error": -0.7069143446852425,
+      "spearman_without_two_weakest": -0.5823529411764706,
+      "error_min": 0.09351899976899977,
+      "error_max": 0.24794142862121715,
+      "error_spread_ratio": 2.651241236900036,
+      "best_by_dice_is_best_by_trait": true,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unetpp_r34__s1"
+    },
+    "bounding_depth": {
+      "kind": "extremum",
+      "spearman_dice_vs_trait_error": -0.6590912607849087,
+      "spearman_without_two_weakest": -0.5139917209011775,
+      "error_min": 0.021875,
+      "error_max": 0.058055775839280996,
+      "error_spread_ratio": 2.653978324081417,
+      "best_by_dice_is_best_by_trait": true,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unetpp_r34__s1"
+    },
+    "bounding_width": {
+      "kind": "extremum",
+      "spearman_dice_vs_trait_error": -0.835509201775145,
+      "spearman_without_two_weakest": -0.7650365537115882,
+      "error_min": 0.022950819672131147,
+      "error_max": 0.05624031007751938,
+      "error_spread_ratio": 2.4504706533776304,
+      "best_by_dice_is_best_by_trait": false,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unetpp_r34__s2"
+    },
+    "total_length": {
+      "kind": "integral",
+      "spearman_dice_vs_trait_error": -0.8142414860681115,
+      "spearman_without_two_weakest": -0.7352941176470589,
+      "error_min": 0.10646438581661254,
+      "error_max": 0.19658119658119658,
+      "error_spread_ratio": 1.8464502948414356,
+      "best_by_dice_is_best_by_trait": true,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unetpp_r34__s1"
+    },
+    "mean_diameter": {
+      "kind": "integral",
+      "spearman_dice_vs_trait_error": -0.7708978328173374,
+      "spearman_without_two_weakest": -0.7735294117647058,
+      "error_min": 0.1498372284852987,
+      "error_max": 0.2010229813306667,
+      "error_spread_ratio": 1.3416090471160182,
+      "best_by_dice_is_best_by_trait": true,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unetpp_r34__s1"
+    },
+    "n_tips": {
+      "kind": "count",
+      "spearman_dice_vs_trait_error": -0.3052317321626919,
+      "spearman_without_two_weakest": -0.41245232689534983,
+      "error_min": 0.375,
+      "error_max": 0.4375,
+      "error_spread_ratio": 1.1666666666666667,
+      "best_by_dice_is_best_by_trait": false,
+      "best_by_trait_tag": "peanut_640x480_DPI120__manet_r34__s2"
+    },
+    "n_branch_points": {
+      "kind": "count",
+      "spearman_dice_vs_trait_error": -0.1446281763477856,
+      "spearman_without_two_weakest": -0.4197353594751736,
+      "error_min": 0.7106848446417248,
+      "error_max": 0.8,
+      "error_spread_ratio": 1.1256747713584654,
+      "best_by_dice_is_best_by_trait": false,
+      "best_by_trait_tag": "peanut_640x480_DPI120__deeplabv3p_r34__s2"
+    },
+    "n_components": {
+      "kind": "count",
+      "spearman_dice_vs_trait_error": -0.4039039697093489,
+      "spearman_without_two_weakest": -0.04321358157014429,
+      "error_min": 0.25,
+      "error_max": 1.0,
+      "error_spread_ratio": 4.0,
+      "best_by_dice_is_best_by_trait": false,
+      "best_by_trait_tag": "peanut_640x480_DPI120__unet_r50__s0"
+    },
+    "fractal_dimension": {
+      "kind": "fitted",
+      "spearman_dice_vs_trait_error": -0.6594427244582043,
+      "spearman_without_two_weakest": -0.5147058823529412,
+      "error_min": 0.01995915769461507,
+      "error_max": 0.03222786914709924,
+      "error_spread_ratio": 1.6146908421788881,
+      "best_by_dice_is_best_by_trait": false,
+      "best_by_trait_tag": "peanut_640x480_DPI120__deeplabv3p_r34__s1"
+    },
+    "lacunarity": {
+      "kind": "integral",
+      "spearman_dice_vs_trait_error": -0.8844169246646028,
+      "spearman_without_two_weakest": -0.8352941176470589,
+      "error_min": 0.05210077591941952,
+      "error_max": 0.10798057987476839,
+      "error_spread_ratio": 2.072533047142601,
+      "best_by_dice_is_best_by_trait": false,
+      "best_by_trait_tag": "peanut_640x480_DPI120__deeplabv3p_r34__s1"
+    }
+  },
+  "rank_inversion_undefined": {
+    "n_holes": "no variation in median error across models"
+  },
+  "fingerprints": {
+    "peanut_640x480_DPI120__deeplabv3p_r34__s0": {
+      "median_dice_loss": 0.19862047782940917,
+      "mean_dice_loss": 0.31476749517227187,
+      "n_masks": 250,
+      "model_area_direction": 9.753416619184092e-05,
+      "model_vector": {
+        "pixel_area": 0.1551013131188417,
+        "convex_hull_area": 0.12190716471881166,
+        "bounding_depth": 0.029081057379102982,
+        "bounding_width": 0.030160792593795678,
+        "total_length": 0.11529649545844552,
+        "mean_diameter": 0.19303883705776642,
+        "n_tips": 0.4,
+        "n_branch_points": 0.7410714285714286,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.01994177681670544,
+        "lacunarity": 0.05614384588905728,
+        "_area_direction": 9.753416619184092e-05
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9569388154668403
+        ],
+        [
+          "thin_dropout",
+          0.9501175591887756
+        ],
+        [
+          "junction_break",
+          0.934613109863099
+        ],
+        [
+          "speckle",
+          0.8676531944156309
+        ],
+        [
+          "boundary_dilate",
+          0.6012115500441035
+        ],
+        [
+          "blob",
+          0.47974209259976164
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__deeplabv3p_r34__s1": {
+      "median_dice_loss": 0.20562920733159407,
+      "mean_dice_loss": 0.3163140598567387,
+      "n_masks": 250,
+      "model_area_direction": 0.009130475984188011,
+      "model_vector": {
+        "pixel_area": 0.15385421680404307,
+        "convex_hull_area": 0.11391819743494905,
+        "bounding_depth": 0.02885682574916759,
+        "bounding_width": 0.03236279849183075,
+        "total_length": 0.12095088819226751,
+        "mean_diameter": 0.19012760342508456,
+        "n_tips": 0.40454545454545454,
+        "n_branch_points": 0.7257053291536051,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.019974557182694176,
+        "lacunarity": 0.052111373713495765,
+        "_area_direction": 0.009130475984188011
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "junction_break",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "junction_break",
+      "ranking": [
+        [
+          "junction_break",
+          0.9529481484808554
+        ],
+        [
+          "thin_dropout",
+          0.9434794936447292
+        ],
+        [
+          "speckle",
+          0.8668201914463776
+        ],
+        [
+          "boundary_erode",
+          0.59921324935339
+        ],
+        [
+          "boundary_dilate",
+          0.5981916679846708
+        ],
+        [
+          "blob",
+          0.48060298767252074
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__deeplabv3p_r34__s2": {
+      "median_dice_loss": 0.21102896663641463,
+      "mean_dice_loss": 0.32531496578147034,
+      "n_masks": 250,
+      "model_area_direction": 0.017170391050598775,
+      "model_vector": {
+        "pixel_area": 0.1567432943127227,
+        "convex_hull_area": 0.124248841460212,
+        "bounding_depth": 0.027650356778797146,
+        "bounding_width": 0.028803085600530853,
+        "total_length": 0.11893185416783303,
+        "mean_diameter": 0.20275532817628583,
+        "n_tips": 0.3798076923076923,
+        "n_branch_points": 0.7285425101214575,
+        "n_components": 0.25,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.022181796223083566,
+        "lacunarity": 0.05613534218742268,
+        "_area_direction": 0.017170391050598775
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9574077498395255
+        ],
+        [
+          "thin_dropout",
+          0.9464191973834323
+        ],
+        [
+          "junction_break",
+          0.9129548656175598
+        ],
+        [
+          "speckle",
+          0.8513941934657542
+        ],
+        [
+          "boundary_dilate",
+          0.6304206714430516
+        ],
+        [
+          "blob",
+          0.47329737471658967
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__fpn_r34__s0": {
+      "median_dice_loss": 0.21802865926290488,
+      "mean_dice_loss": 0.3309972681000129,
+      "n_masks": 250,
+      "model_area_direction": 0.017546600644823725,
+      "model_vector": {
+        "pixel_area": 0.18085934105108653,
+        "convex_hull_area": 0.13484502027616968,
+        "bounding_depth": 0.032323364241870184,
+        "bounding_width": 0.03339652096342551,
+        "total_length": 0.13341336614016985,
+        "mean_diameter": 0.23404147655628615,
+        "n_tips": 0.43167701863354035,
+        "n_branch_points": 0.80625,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.021587478809748345,
+        "lacunarity": 0.05942282647632246,
+        "_area_direction": 0.017546600644823725
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.955899923678009
+        ],
+        [
+          "thin_dropout",
+          0.9431480472973267
+        ],
+        [
+          "junction_break",
+          0.9228286724401008
+        ],
+        [
+          "blob",
+          0.8766414951978454
+        ],
+        [
+          "speckle",
+          0.8606211865795732
+        ],
+        [
+          "boundary_dilate",
+          0.6101655687524902
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__fpn_r34__s1": {
+      "median_dice_loss": 0.21158752919352086,
+      "mean_dice_loss": 0.33165467533921306,
+      "n_masks": 250,
+      "model_area_direction": 0.015983590534117503,
+      "model_vector": {
+        "pixel_area": 0.18037816741169688,
+        "convex_hull_area": 0.13111509936918364,
+        "bounding_depth": 0.030747778408016638,
+        "bounding_width": 0.03528579513299378,
+        "total_length": 0.12177827468518301,
+        "mean_diameter": 0.20979834045384305,
+        "n_tips": 0.42083333333333334,
+        "n_branch_points": 0.8360215053763441,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023151392569602566,
+        "lacunarity": 0.05932285594447932,
+        "_area_direction": 0.015983590534117503
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9579745649411889
+        ],
+        [
+          "thin_dropout",
+          0.9436721872535028
+        ],
+        [
+          "junction_break",
+          0.925472687666031
+        ],
+        [
+          "blob",
+          0.862710416079988
+        ],
+        [
+          "speckle",
+          0.8606087014572179
+        ],
+        [
+          "boundary_dilate",
+          0.6111067562801831
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__fpn_r34__s2": {
+      "median_dice_loss": 0.21470532050793822,
+      "mean_dice_loss": 0.3433610565835349,
+      "n_masks": 250,
+      "model_area_direction": -0.013924022933169942,
+      "model_vector": {
+        "pixel_area": 0.17247995402448288,
+        "convex_hull_area": 0.14632616821386435,
+        "bounding_depth": 0.02707940498638173,
+        "bounding_width": 0.03504073206115389,
+        "total_length": 0.1279877144394713,
+        "mean_diameter": 0.20126972202385618,
+        "n_tips": 0.45454545454545453,
+        "n_branch_points": 0.8535714285714285,
+        "n_components": 0.41428571428571426,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023028537838691,
+        "lacunarity": 0.0573689785058337,
+        "_area_direction": -0.013924022933169942
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9538836685536244
+        ],
+        [
+          "junction_break",
+          0.9530885283700604
+        ],
+        [
+          "thin_dropout",
+          0.9440541531826645
+        ],
+        [
+          "speckle",
+          0.8725857754129535
+        ],
+        [
+          "blob",
+          0.871234078685884
+        ],
+        [
+          "boundary_dilate",
+          0.5897761091493121
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__manet_r34__s0": {
+      "median_dice_loss": 0.2758425312692412,
+      "mean_dice_loss": 0.4166023550145034,
+      "n_masks": 250,
+      "model_area_direction": -0.10913546872582619,
+      "model_vector": {
+        "pixel_area": 0.24510809108332327,
+        "convex_hull_area": 0.36383874577401315,
+        "bounding_depth": 0.10166666666666667,
+        "bounding_width": 0.11036265519453564,
+        "total_length": 0.25542574107683,
+        "mean_diameter": 0.23291698569777447,
+        "n_tips": 0.5,
+        "n_branch_points": 0.8,
+        "n_components": 1.0,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.036353640573730396,
+        "lacunarity": 0.12931642967643323,
+        "_area_direction": -0.10913546872582619
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9405243564709483
+        ],
+        [
+          "boundary_erode",
+          0.9198987387338651
+        ]
+      ],
+      "excluded_by_direction": [
+        "boundary_dilate",
+        "speckle",
+        "blob"
+      ]
+    },
+    "peanut_640x480_DPI120__manet_r34__s1": {
+      "median_dice_loss": 0.20694374357381873,
+      "mean_dice_loss": 0.32950931484437473,
+      "n_masks": 250,
+      "model_area_direction": 0.001060011374118302,
+      "model_vector": {
+        "pixel_area": 0.1623565865890437,
+        "convex_hull_area": 0.15579996135662744,
+        "bounding_depth": 0.040547945205479455,
+        "bounding_width": 0.039503546099290784,
+        "total_length": 0.12337976843950366,
+        "mean_diameter": 0.201506746018661,
+        "n_tips": 0.4,
+        "n_branch_points": 0.8165064102564102,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.024266714957621238,
+        "lacunarity": 0.0618859141050458,
+        "_area_direction": 0.001060011374118302
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9490040073472896
+        ],
+        [
+          "thin_dropout",
+          0.9446126040587194
+        ],
+        [
+          "junction_break",
+          0.9137032000596248
+        ],
+        [
+          "speckle",
+          0.8657965997949533
+        ],
+        [
+          "blob",
+          0.795644418089698
+        ],
+        [
+          "boundary_dilate",
+          0.6062902423110773
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__manet_r34__s2": {
+      "median_dice_loss": 0.23397227818428806,
+      "mean_dice_loss": 0.3465224060568015,
+      "n_masks": 250,
+      "model_area_direction": -0.059757463843203934,
+      "model_vector": {
+        "pixel_area": 0.19888802409531106,
+        "convex_hull_area": 0.23692325721344448,
+        "bounding_depth": 0.05744829336378632,
+        "bounding_width": 0.0496172772006561,
+        "total_length": 0.17480190515100363,
+        "mean_diameter": 0.19214733415380664,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.8255578093306288,
+        "n_components": 0.5,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.03368819546081324,
+        "lacunarity": 0.09587163485780839,
+        "_area_direction": -0.059757463843203934
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9553599695904458
+        ],
+        [
+          "boundary_erode",
+          0.9436570351353089
+        ]
+      ],
+      "excluded_by_direction": [
+        "boundary_dilate",
+        "speckle",
+        "blob"
+      ]
+    },
+    "peanut_640x480_DPI120__unet_r34__s0": {
+      "median_dice_loss": 0.20960576102014156,
+      "mean_dice_loss": 0.3307031422332004,
+      "n_masks": 250,
+      "model_area_direction": -0.0022857153604669777,
+      "model_vector": {
+        "pixel_area": 0.17369506608379237,
+        "convex_hull_area": 0.14693563738449278,
+        "bounding_depth": 0.03784702328246263,
+        "bounding_width": 0.036474501108647445,
+        "total_length": 0.13031296979636464,
+        "mean_diameter": 0.20461257214988537,
+        "n_tips": 0.4409722222222222,
+        "n_branch_points": 0.7796495956873315,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023854970522496598,
+        "lacunarity": 0.06432756942174646,
+        "_area_direction": -0.0022857153604669777
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9458903347510887
+        ],
+        [
+          "junction_break",
+          0.9208115092201314
+        ],
+        [
+          "speckle",
+          0.8640335764330815
+        ],
+        [
+          "blob",
+          0.8607628553842405
+        ],
+        [
+          "boundary_erode",
+          0.6134734378999198
+        ],
+        [
+          "boundary_dilate",
+          0.609672414804321
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r34__s1": {
+      "median_dice_loss": 0.21096735043971726,
+      "mean_dice_loss": 0.32691821809444327,
+      "n_masks": 250,
+      "model_area_direction": 0.01415474782921488,
+      "model_vector": {
+        "pixel_area": 0.1754657239922538,
+        "convex_hull_area": 0.13567490348265313,
+        "bounding_depth": 0.028107443820224717,
+        "bounding_width": 0.03665413533834586,
+        "total_length": 0.11958040790628457,
+        "mean_diameter": 0.20180305401515478,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.75,
+        "n_components": 0.5,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.02401558050150651,
+        "lacunarity": 0.05893252084809958,
+        "_area_direction": 0.01415474782921488
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "junction_break",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "junction_break",
+      "ranking": [
+        [
+          "junction_break",
+          0.9585615253047661
+        ],
+        [
+          "boundary_erode",
+          0.9573310528115646
+        ],
+        [
+          "thin_dropout",
+          0.9420402881898043
+        ],
+        [
+          "speckle",
+          0.885840801800731
+        ],
+        [
+          "blob",
+          0.8339328403508552
+        ],
+        [
+          "boundary_dilate",
+          0.5707515780280229
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r34__s2": {
+      "median_dice_loss": 0.20607373316660554,
+      "mean_dice_loss": 0.33133861187625874,
+      "n_masks": 250,
+      "model_area_direction": 0.012393808276280206,
+      "model_vector": {
+        "pixel_area": 0.16879834256612664,
+        "convex_hull_area": 0.13559762997202635,
+        "bounding_depth": 0.03141447368421053,
+        "bounding_width": 0.036222031391632076,
+        "total_length": 0.1274546827794562,
+        "mean_diameter": 0.2068454033485339,
+        "n_tips": 0.4472222222222222,
+        "n_branch_points": 0.8232998885172798,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.0198876760617166,
+        "lacunarity": 0.05985696313288036,
+        "_area_direction": 0.012393808276280206
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9534266050855669
+        ],
+        [
+          "thin_dropout",
+          0.9452131511805246
+        ],
+        [
+          "junction_break",
+          0.9202515416585055
+        ],
+        [
+          "blob",
+          0.8681775215254457
+        ],
+        [
+          "speckle",
+          0.8631431277382332
+        ],
+        [
+          "boundary_dilate",
+          0.6079000355490025
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r50__s0": {
+      "median_dice_loss": 0.21777013835837367,
+      "mean_dice_loss": 0.3432039856027708,
+      "n_masks": 250,
+      "model_area_direction": 0.004188776664773173,
+      "model_vector": {
+        "pixel_area": 0.18357663310611408,
+        "convex_hull_area": 0.183867764105679,
+        "bounding_depth": 0.03593896713615023,
+        "bounding_width": 0.03877231443783276,
+        "total_length": 0.15104751215862328,
+        "mean_diameter": 0.22360827570570335,
+        "n_tips": 0.45584415584415583,
+        "n_branch_points": 0.8086080586080586,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023348577824245195,
+        "lacunarity": 0.06927278608374049,
+        "_area_direction": 0.004188776664773173
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.953327690233902
+        ],
+        [
+          "thin_dropout",
+          0.9485864091776053
+        ],
+        [
+          "speckle",
+          0.8684378268732206
+        ],
+        [
+          "blob",
+          0.8543242142244377
+        ],
+        [
+          "junction_break",
+          0.7681850159059627
+        ],
+        [
+          "boundary_dilate",
+          0.6127605667322387
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r50__s1": {
+      "median_dice_loss": 0.20207578271114446,
+      "mean_dice_loss": 0.32232483911533355,
+      "n_masks": 250,
+      "model_area_direction": -0.014418575979962754,
+      "model_vector": {
+        "pixel_area": 0.1700932936103689,
+        "convex_hull_area": 0.17028198003903083,
+        "bounding_depth": 0.0329004329004329,
+        "bounding_width": 0.03713553979511426,
+        "total_length": 0.1377286069090088,
+        "mean_diameter": 0.2002205041642611,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.7928571428571429,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.02181986239305123,
+        "lacunarity": 0.06297662785643728,
+        "_area_direction": -0.014418575979962754
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9507896430551505
+        ],
+        [
+          "boundary_erode",
+          0.9503390950203787
+        ],
+        [
+          "junction_break",
+          0.942832450828947
+        ],
+        [
+          "speckle",
+          0.8728812299294255
+        ],
+        [
+          "blob",
+          0.813012211166121
+        ],
+        [
+          "boundary_dilate",
+          0.6092931370827797
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r50__s2": {
+      "median_dice_loss": 0.21343376862603208,
+      "mean_dice_loss": 0.33427988210950366,
+      "n_masks": 250,
+      "model_area_direction": -0.006868586525625041,
+      "model_vector": {
+        "pixel_area": 0.1713460144441163,
+        "convex_hull_area": 0.14814735688364417,
+        "bounding_depth": 0.03456514813634916,
+        "bounding_width": 0.03327796234772979,
+        "total_length": 0.12959574966336868,
+        "mean_diameter": 0.20788911688556094,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.7921727395411606,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023071379244164456,
+        "lacunarity": 0.05824550702948781,
+        "_area_direction": -0.006868586525625041
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9567425851716777
+        ],
+        [
+          "thin_dropout",
+          0.9438761745043753
+        ],
+        [
+          "junction_break",
+          0.94075053511756
+        ],
+        [
+          "speckle",
+          0.8680069069386775
+        ],
+        [
+          "blob",
+          0.859407856792359
+        ],
+        [
+          "boundary_dilate",
+          0.6071590537711705
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unetpp_r34__s0": {
+      "median_dice_loss": 0.1979000133226752,
+      "mean_dice_loss": 0.327429917632297,
+      "n_masks": 250,
+      "model_area_direction": -0.002924202876395874,
+      "model_vector": {
+        "pixel_area": 0.1601754746890958,
+        "convex_hull_area": 0.13147595209127755,
+        "bounding_depth": 0.03365221329106759,
+        "bounding_width": 0.03236279849183075,
+        "total_length": 0.12848919300532202,
+        "mean_diameter": 0.20460212034389663,
+        "n_tips": 0.4375,
+        "n_branch_points": 0.8024764150943396,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.01813814771581902,
+        "lacunarity": 0.05537516496741361,
+        "_area_direction": -0.002924202876395874
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9475735916743199
+        ],
+        [
+          "junction_break",
+          0.9159636931189987
+        ],
+        [
+          "blob",
+          0.867418666526837
+        ],
+        [
+          "speckle",
+          0.865243275046006
+        ],
+        [
+          "boundary_erode",
+          0.6072056445454121
+        ],
+        [
+          "boundary_dilate",
+          0.6031998287331606
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unetpp_r34__s1": {
+      "median_dice_loss": 0.19851557072952664,
+      "mean_dice_loss": 0.3191255806604476,
+      "n_masks": 250,
+      "model_area_direction": -0.011544649535831565,
+      "model_vector": {
+        "pixel_area": 0.15331374968182737,
+        "convex_hull_area": 0.13088110811850712,
+        "bounding_depth": 0.025657894736842105,
+        "bounding_width": 0.03524297469337059,
+        "total_length": 0.11259364745217014,
+        "mean_diameter": 0.1693859736630411,
+        "n_tips": 0.4330357142857143,
+        "n_branch_points": 0.7857142857142857,
+        "n_components": 0.25,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.020091078345499447,
+        "lacunarity": 0.053034836914600605,
+        "_area_direction": -0.011544649535831565
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9493402888517961
+        ],
+        [
+          "speckle",
+          0.8569051623843973
+        ],
+        [
+          "junction_break",
+          0.779367723471446
+        ],
+        [
+          "boundary_erode",
+          0.6299014879531769
+        ],
+        [
+          "boundary_dilate",
+          0.6272575976109286
+        ],
+        [
+          "blob",
+          0.4682340042956351
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unetpp_r34__s2": {
+      "median_dice_loss": 0.2023312081363069,
+      "mean_dice_loss": 0.31739414462201365,
+      "n_masks": 250,
+      "model_area_direction": 0.007960104033154943,
+      "model_vector": {
+        "pixel_area": 0.14916584530423638,
+        "convex_hull_area": 0.118557702688114,
+        "bounding_depth": 0.02539912917271408,
+        "bounding_width": 0.031625,
+        "total_length": 0.11462148699076988,
+        "mean_diameter": 0.18083387220663394,
+        "n_tips": 0.4330357142857143,
+        "n_branch_points": 0.7692307692307693,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.020460531206361716,
+        "lacunarity": 0.05329983657707393,
+        "_area_direction": 0.007960104033154943
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9553420770008936
+        ],
+        [
+          "thin_dropout",
+          0.9460351119304254
+        ],
+        [
+          "junction_break",
+          0.9244199768835704
+        ],
+        [
+          "speckle",
+          0.870848610054498
+        ],
+        [
+          "blob",
+          0.8652999997437422
+        ],
+        [
+          "boundary_dilate",
+          0.6017747176287563
+        ]
+      ],
+      "excluded_by_direction": []
+    }
+  },
+  "fingerprint_detail": {
+    "peanut_640x480_DPI120__deeplabv3p_r34__s0": {
+      "median_dice_loss": 0.19862047782940917,
+      "mean_dice_loss": 0.31476749517227187,
+      "n_masks": 250,
+      "model_area_direction": 9.753416619184092e-05,
+      "model_vector": {
+        "pixel_area": 0.1551013131188417,
+        "convex_hull_area": 0.12190716471881166,
+        "bounding_depth": 0.029081057379102982,
+        "bounding_width": 0.030160792593795678,
+        "total_length": 0.11529649545844552,
+        "mean_diameter": 0.19303883705776642,
+        "n_tips": 0.4,
+        "n_branch_points": 0.7410714285714286,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.01994177681670544,
+        "lacunarity": 0.05614384588905728,
+        "_area_direction": 9.753416619184092e-05
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9569388154668403,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3314527166820511,
+            "convex_hull_area": 0.05617051492746873,
+            "bounding_depth": 0.015625,
+            "bounding_width": 0.013445719967459097,
+            "total_length": 0.03453587755913337,
+            "mean_diameter": 0.3294321001811026,
+            "n_tips": 0.5,
+            "n_branch_points": 0.6958960328317374,
+            "n_components": 0.2,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05440395167273493,
+            "lacunarity": 0.08257376061247695,
+            "_area_direction": -0.3314527166820511
+          },
+          "area_direction": -0.3314527166820511,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6012115500441035,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.49565322385897126,
+            "convex_hull_area": 0.05797626596612012,
+            "bounding_depth": 0.013513513513513514,
+            "bounding_width": 0.020618556701030927,
+            "total_length": 0.08490566037735849,
+            "mean_diameter": 0.4071919753497774,
+            "n_tips": 0.391304347826087,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.073764957202862,
+            "lacunarity": 0.10745018907753096,
+            "_area_direction": 0.49565322385897126
+          },
+          "area_direction": 0.49565322385897126,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.934613109863099,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.32236851729939286,
+            "convex_hull_area": 0.0918918918918919,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.1512820512820513,
+            "mean_diameter": 0.325092833703069,
+            "n_tips": 1.1666666666666665,
+            "n_branch_points": 0.2403846153846154,
+            "n_components": 5.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.039894030973110305,
+            "lacunarity": 0.17238696085235253,
+            "_area_direction": -0.32236851729939286
+          },
+          "area_direction": -0.32236851729939286,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9501175591887756,
+          "n_masks": 232,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.30083619450883375,
+            "convex_hull_area": 0.20628287886165247,
+            "bounding_depth": 0.023197955890263584,
+            "bounding_width": 0.022727272727272728,
+            "total_length": 0.37745953380479746,
+            "mean_diameter": 0.08332815002195479,
+            "n_tips": 0.2631578947368421,
+            "n_branch_points": 0.8480769230769231,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.02790580061900648,
+            "lacunarity": 0.4038179905710633,
+            "_area_direction": -0.30083619450883375
+          },
+          "area_direction": -0.30083619450883375,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8676531944156309,
+          "n_masks": 219,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.49570200573065903,
+            "convex_hull_area": 5.984313454495197,
+            "bounding_depth": 0.3559322033898305,
+            "bounding_width": 0.7431693989071039,
+            "total_length": 3.875,
+            "mean_diameter": 0.6936549339116673,
+            "n_tips": 14.454545454545455,
+            "n_branch_points": 1.1538461538461537,
+            "n_components": 495.6666666666667,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.13674690378613538,
+            "lacunarity": 0.5067933403384003,
+            "_area_direction": 0.49570200573065903
+          },
+          "area_direction": 0.49570200573065903,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.47974209259976164,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.4962653122198984,
+            "convex_hull_area": 1.9881982020365558,
+            "bounding_depth": 0.09608540925266904,
+            "bounding_width": 0.375,
+            "total_length": 0.09090909090909091,
+            "mean_diameter": 0.3671288680698269,
+            "n_tips": 0.8571428571428571,
+            "n_branch_points": 0.0,
+            "n_components": 5.4,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.054156569114642034,
+            "lacunarity": 0.3613262565711011,
+            "_area_direction": 0.4962653122198984
+          },
+          "area_direction": 0.4962653122198984,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9569388154668403
+        ],
+        [
+          "thin_dropout",
+          0.9501175591887756
+        ],
+        [
+          "junction_break",
+          0.934613109863099
+        ],
+        [
+          "speckle",
+          0.8676531944156309
+        ],
+        [
+          "boundary_dilate",
+          0.6012115500441035
+        ],
+        [
+          "blob",
+          0.47974209259976164
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__deeplabv3p_r34__s1": {
+      "median_dice_loss": 0.20562920733159407,
+      "mean_dice_loss": 0.3163140598567387,
+      "n_masks": 250,
+      "model_area_direction": 0.009130475984188011,
+      "model_vector": {
+        "pixel_area": 0.15385421680404307,
+        "convex_hull_area": 0.11391819743494905,
+        "bounding_depth": 0.02885682574916759,
+        "bounding_width": 0.03236279849183075,
+        "total_length": 0.12095088819226751,
+        "mean_diameter": 0.19012760342508456,
+        "n_tips": 0.40454545454545454,
+        "n_branch_points": 0.7257053291536051,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.019974557182694176,
+        "lacunarity": 0.052111373713495765,
+        "_area_direction": 0.009130475984188011
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.59921324935339,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.34121621621621623,
+            "convex_hull_area": 0.058379792756492174,
+            "bounding_depth": 0.015649490595611285,
+            "bounding_width": 0.013858660862885674,
+            "total_length": 0.03682138593598999,
+            "mean_diameter": 0.3353853339389957,
+            "n_tips": 0.43167701863354035,
+            "n_branch_points": 0.6547619047619048,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05760009305339801,
+            "lacunarity": 0.08725860430055865,
+            "_area_direction": -0.34121621621621623
+          },
+          "area_direction": -0.34121621621621623,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.5981916679846708,
+          "n_masks": 248,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5177913991048841,
+            "convex_hull_area": 0.06141688346124174,
+            "bounding_depth": 0.014260294865277072,
+            "bounding_width": 0.021333485038115826,
+            "total_length": 0.07533783783783785,
+            "mean_diameter": 0.4195263041405941,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07651376559887896,
+            "lacunarity": 0.1109006618749736,
+            "_area_direction": 0.5177913991048841
+          },
+          "area_direction": 0.5177913991048841,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9529481484808554,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.33100724160631995,
+            "convex_hull_area": 0.08378378378378379,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.25256410256410255,
+            "mean_diameter": 0.34970693060316455,
+            "n_tips": 1.2916666666666667,
+            "n_branch_points": 0.6057692307692308,
+            "n_components": 6.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.033998787970230634,
+            "lacunarity": 0.16667256995499108,
+            "_area_direction": -0.33100724160631995
+          },
+          "area_direction": -0.33100724160631995,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9434794936447292,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3138062064597847,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3876871880199667,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.2608695652173913,
+            "n_branch_points": 0.8461538461538461,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028031938448270084,
+            "lacunarity": 0.4684211426059308,
+            "_area_direction": -0.3138062064597847
+          },
+          "area_direction": -0.3138062064597847,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8668201914463776,
+          "n_masks": 215,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.518097941802697,
+            "convex_hull_area": 6.294767870302137,
+            "bounding_depth": 0.391304347826087,
+            "bounding_width": 0.807909604519774,
+            "total_length": 4.03780718336484,
+            "mean_diameter": 0.6985102404713062,
+            "n_tips": 16.0,
+            "n_branch_points": 1.08,
+            "n_components": 505.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14042711645844505,
+            "lacunarity": 0.5202688701656264,
+            "_area_direction": 0.518097941802697
+          },
+          "area_direction": 0.518097941802697,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.48060298767252074,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5192187639347187,
+            "convex_hull_area": 1.9109088268048224,
+            "bounding_depth": 0.0958904109589041,
+            "bounding_width": 0.4272300469483568,
+            "total_length": 0.09684684684684684,
+            "mean_diameter": 0.38449219271319895,
+            "n_tips": 1.0,
+            "n_branch_points": 0.0,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05970425445217505,
+            "lacunarity": 0.37014718491904824,
+            "_area_direction": 0.5192187639347187
+          },
+          "area_direction": 0.5192187639347187,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "junction_break",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "junction_break",
+      "ranking": [
+        [
+          "junction_break",
+          0.9529481484808554
+        ],
+        [
+          "thin_dropout",
+          0.9434794936447292
+        ],
+        [
+          "speckle",
+          0.8668201914463776
+        ],
+        [
+          "boundary_erode",
+          0.59921324935339
+        ],
+        [
+          "boundary_dilate",
+          0.5981916679846708
+        ],
+        [
+          "blob",
+          0.48060298767252074
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__deeplabv3p_r34__s2": {
+      "median_dice_loss": 0.21102896663641463,
+      "mean_dice_loss": 0.32531496578147034,
+      "n_masks": 250,
+      "model_area_direction": 0.017170391050598775,
+      "model_vector": {
+        "pixel_area": 0.1567432943127227,
+        "convex_hull_area": 0.124248841460212,
+        "bounding_depth": 0.027650356778797146,
+        "bounding_width": 0.028803085600530853,
+        "total_length": 0.11893185416783303,
+        "mean_diameter": 0.20275532817628583,
+        "n_tips": 0.3798076923076923,
+        "n_branch_points": 0.7285425101214575,
+        "n_components": 0.25,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.022181796223083566,
+        "lacunarity": 0.05613534218742268,
+        "_area_direction": 0.017170391050598775
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9574077498395255,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3483912164568658,
+            "convex_hull_area": 0.06280024826086286,
+            "bounding_depth": 0.01569862581573707,
+            "bounding_width": 0.0136986301369863,
+            "total_length": 0.03419053185271771,
+            "mean_diameter": 0.34434052821207817,
+            "n_tips": 0.47987117552334946,
+            "n_branch_points": 0.7845268542199488,
+            "n_components": 0.14285714285714285,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05808371999736959,
+            "lacunarity": 0.08818358591812132,
+            "_area_direction": -0.3483912164568658
+          },
+          "area_direction": -0.3483912164568658,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6304206714430516,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5349910955741706,
+            "convex_hull_area": 0.06333352037857957,
+            "bounding_depth": 0.014705882352941176,
+            "bounding_width": 0.0213903743315508,
+            "total_length": 0.09230769230769231,
+            "mean_diameter": 0.43926852171290587,
+            "n_tips": 0.45,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07790019239361708,
+            "lacunarity": 0.11501032158802084,
+            "_area_direction": 0.5349910955741706
+          },
+          "area_direction": 0.5349910955741706,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9129548656175598,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.35524833589349714,
+            "convex_hull_area": 0.0918918918918919,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.2358974358974359,
+            "mean_diameter": 0.38840107694390236,
+            "n_tips": 1.5,
+            "n_branch_points": 0.20192307692307693,
+            "n_components": 7.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.04141913206468731,
+            "lacunarity": 0.18473919108797568,
+            "_area_direction": -0.35524833589349714
+          },
+          "area_direction": -0.35524833589349714,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9464191973834323,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3233258209916291,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3918067226890756,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.25,
+            "n_branch_points": 0.85,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028692971430454878,
+            "lacunarity": 0.47596949050732024,
+            "_area_direction": -0.3233258209916291
+          },
+          "area_direction": -0.3233258209916291,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8513941934657542,
+          "n_masks": 214,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.534962376021964,
+            "convex_hull_area": 6.410046462952817,
+            "bounding_depth": 0.3853073463268366,
+            "bounding_width": 0.8130457113507961,
+            "total_length": 4.155076981804301,
+            "mean_diameter": 0.7026169422183797,
+            "n_tips": 16.30494505494506,
+            "n_branch_points": 1.1464285714285714,
+            "n_components": 522.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14244995881820813,
+            "lacunarity": 0.5297041167217009,
+            "_area_direction": 0.534962376021964
+          },
+          "area_direction": 0.534962376021964,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.47329737471658967,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5356793743890518,
+            "convex_hull_area": 2.1245147173007695,
+            "bounding_depth": 0.10380622837370242,
+            "bounding_width": 0.38235294117647056,
+            "total_length": 0.10981697171381032,
+            "mean_diameter": 0.3780451539313184,
+            "n_tips": 1.0,
+            "n_branch_points": 0.0,
+            "n_components": 6.333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.058744898571253513,
+            "lacunarity": 0.37931623437203027,
+            "_area_direction": 0.5356793743890518
+          },
+          "area_direction": 0.5356793743890518,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9574077498395255
+        ],
+        [
+          "thin_dropout",
+          0.9464191973834323
+        ],
+        [
+          "junction_break",
+          0.9129548656175598
+        ],
+        [
+          "speckle",
+          0.8513941934657542
+        ],
+        [
+          "boundary_dilate",
+          0.6304206714430516
+        ],
+        [
+          "blob",
+          0.47329737471658967
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__fpn_r34__s0": {
+      "median_dice_loss": 0.21802865926290488,
+      "mean_dice_loss": 0.3309972681000129,
+      "n_masks": 250,
+      "model_area_direction": 0.017546600644823725,
+      "model_vector": {
+        "pixel_area": 0.18085934105108653,
+        "convex_hull_area": 0.13484502027616968,
+        "bounding_depth": 0.032323364241870184,
+        "bounding_width": 0.03339652096342551,
+        "total_length": 0.13341336614016985,
+        "mean_diameter": 0.23404147655628615,
+        "n_tips": 0.43167701863354035,
+        "n_branch_points": 0.80625,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.021587478809748345,
+        "lacunarity": 0.05942282647632246,
+        "_area_direction": 0.017546600644823725
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.955899923678009,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3578303857139789,
+            "convex_hull_area": 0.06261971061518469,
+            "bounding_depth": 0.015723270440251572,
+            "bounding_width": 0.0136986301369863,
+            "total_length": 0.03558763931104357,
+            "mean_diameter": 0.35105061817055905,
+            "n_tips": 0.5,
+            "n_branch_points": 0.8490990990990992,
+            "n_components": 0.2111111111111111,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.06039306737352416,
+            "lacunarity": 0.09162230797130985,
+            "_area_direction": -0.3578303857139789
+          },
+          "area_direction": -0.3578303857139789,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6101655687524902,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5581171950048031,
+            "convex_hull_area": 0.06507611769661231,
+            "bounding_depth": 0.014705882352941176,
+            "bounding_width": 0.022857142857142857,
+            "total_length": 0.08118081180811808,
+            "mean_diameter": 0.46337738435349946,
+            "n_tips": 0.41379310344827586,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.08122283719121738,
+            "lacunarity": 0.11905261632950256,
+            "_area_direction": 0.5581171950048031
+          },
+          "area_direction": 0.5581171950048031,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9228286724401008,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.36091727013386,
+            "convex_hull_area": 0.0918918918918919,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.2435897435897436,
+            "mean_diameter": 0.39535100076574736,
+            "n_tips": 1.3333333333333333,
+            "n_branch_points": 0.20192307692307693,
+            "n_components": 6.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.042359594239215016,
+            "lacunarity": 0.17620043389981654,
+            "_area_direction": -0.36091727013386
+          },
+          "area_direction": -0.36091727013386,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9431480472973267,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.33770348519611054,
+            "convex_hull_area": 0.22878032247131166,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.025,
+            "total_length": 0.4019815994338287,
+            "mean_diameter": 0.08523642799201535,
+            "n_tips": 0.25,
+            "n_branch_points": 0.8571428571428571,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028692971430454878,
+            "lacunarity": 0.4929566145549788,
+            "_area_direction": -0.33770348519611054
+          },
+          "area_direction": -0.33770348519611054,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8606211865795732,
+          "n_masks": 211,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5575342465753425,
+            "convex_hull_area": 6.471957826914629,
+            "bounding_depth": 0.391304347826087,
+            "bounding_width": 0.8285714285714286,
+            "total_length": 4.348214285714286,
+            "mean_diameter": 0.7084515619626881,
+            "n_tips": 17.23076923076923,
+            "n_branch_points": 1.1666666666666667,
+            "n_components": 542.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14039167460037213,
+            "lacunarity": 0.540870489007283,
+            "_area_direction": 0.5575342465753425
+          },
+          "area_direction": 0.5575342465753425,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.8766414951978454,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5586827335754374,
+            "convex_hull_area": 2.1469710039148033,
+            "bounding_depth": 0.09965635738831616,
+            "bounding_width": 0.4026548672566372,
+            "total_length": 0.1261682242990654,
+            "mean_diameter": 0.3878748111031576,
+            "n_tips": 1.0,
+            "n_branch_points": 0.15789473684210525,
+            "n_components": 6.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.055068690600989526,
+            "lacunarity": 0.3847568140155468,
+            "_area_direction": 0.5586827335754374
+          },
+          "area_direction": 0.5586827335754374,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.955899923678009
+        ],
+        [
+          "thin_dropout",
+          0.9431480472973267
+        ],
+        [
+          "junction_break",
+          0.9228286724401008
+        ],
+        [
+          "blob",
+          0.8766414951978454
+        ],
+        [
+          "speckle",
+          0.8606211865795732
+        ],
+        [
+          "boundary_dilate",
+          0.6101655687524902
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__fpn_r34__s1": {
+      "median_dice_loss": 0.21158752919352086,
+      "mean_dice_loss": 0.33165467533921306,
+      "n_masks": 250,
+      "model_area_direction": 0.015983590534117503,
+      "model_vector": {
+        "pixel_area": 0.18037816741169688,
+        "convex_hull_area": 0.13111509936918364,
+        "bounding_depth": 0.030747778408016638,
+        "bounding_width": 0.03528579513299378,
+        "total_length": 0.12177827468518301,
+        "mean_diameter": 0.20979834045384305,
+        "n_tips": 0.42083333333333334,
+        "n_branch_points": 0.8360215053763441,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023151392569602566,
+        "lacunarity": 0.05932285594447932,
+        "_area_direction": 0.015983590534117503
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9579745649411889,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.349276480758819,
+            "convex_hull_area": 0.061606681940887295,
+            "bounding_depth": 0.015649490595611285,
+            "bounding_width": 0.0136986301369863,
+            "total_length": 0.03488843813387424,
+            "mean_diameter": 0.34804580131365903,
+            "n_tips": 0.48333333333333334,
+            "n_branch_points": 0.7605843768634466,
+            "n_components": 0.2,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05797556456512624,
+            "lacunarity": 0.08887551013055495,
+            "_area_direction": -0.349276480758819
+          },
+          "area_direction": -0.349276480758819,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6111067562801831,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5370223978919632,
+            "convex_hull_area": 0.06266923400926651,
+            "bounding_depth": 0.014234875444839857,
+            "bounding_width": 0.02197802197802198,
+            "total_length": 0.0784313725490196,
+            "mean_diameter": 0.4473305579900672,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.078179565905453,
+            "lacunarity": 0.1153947816855786,
+            "_area_direction": 0.5370223978919632
+          },
+          "area_direction": 0.5370223978919632,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.925472687666031,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.35524833589349714,
+            "convex_hull_area": 0.0918918918918919,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.2358974358974359,
+            "mean_diameter": 0.38840107694390236,
+            "n_tips": 1.5833333333333333,
+            "n_branch_points": 0.2403846153846154,
+            "n_components": 7.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.04188701195732695,
+            "lacunarity": 0.17907777029110358,
+            "_area_direction": -0.35524833589349714
+          },
+          "area_direction": -0.35524833589349714,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9436721872535028,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.32416390822965413,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3941176470588235,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.25,
+            "n_branch_points": 0.85,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.02946601079954645,
+            "lacunarity": 0.48280371577754444,
+            "_area_direction": -0.32416390822965413
+          },
+          "area_direction": -0.32416390822965413,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8606087014572179,
+          "n_masks": 214,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5364689950269139,
+            "convex_hull_area": 6.439797552658355,
+            "bounding_depth": 0.3853073463268366,
+            "bounding_width": 0.8130457113507961,
+            "total_length": 4.205952342409428,
+            "mean_diameter": 0.7044688399986523,
+            "n_tips": 16.8,
+            "n_branch_points": 1.1514285714285712,
+            "n_components": 522.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.1443035610365127,
+            "lacunarity": 0.5292294893534641,
+            "_area_direction": 0.5364689950269139
+          },
+          "area_direction": 0.5364689950269139,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.862710416079988,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5374926526156688,
+            "convex_hull_area": 1.9882902063544055,
+            "bounding_depth": 0.11267605633802817,
+            "bounding_width": 0.415929203539823,
+            "total_length": 0.1127141568981064,
+            "mean_diameter": 0.37574606775039804,
+            "n_tips": 1.0,
+            "n_branch_points": 0.1111111111111111,
+            "n_components": 6.166666666666667,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.0575728547898315,
+            "lacunarity": 0.3768629012101168,
+            "_area_direction": 0.5374926526156688
+          },
+          "area_direction": 0.5374926526156688,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9579745649411889
+        ],
+        [
+          "thin_dropout",
+          0.9436721872535028
+        ],
+        [
+          "junction_break",
+          0.925472687666031
+        ],
+        [
+          "blob",
+          0.862710416079988
+        ],
+        [
+          "speckle",
+          0.8606087014572179
+        ],
+        [
+          "boundary_dilate",
+          0.6111067562801831
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__fpn_r34__s2": {
+      "median_dice_loss": 0.21470532050793822,
+      "mean_dice_loss": 0.3433610565835349,
+      "n_masks": 250,
+      "model_area_direction": -0.013924022933169942,
+      "model_vector": {
+        "pixel_area": 0.17247995402448288,
+        "convex_hull_area": 0.14632616821386435,
+        "bounding_depth": 0.02707940498638173,
+        "bounding_width": 0.03504073206115389,
+        "total_length": 0.1279877144394713,
+        "mean_diameter": 0.20126972202385618,
+        "n_tips": 0.45454545454545453,
+        "n_branch_points": 0.8535714285714285,
+        "n_components": 0.41428571428571426,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023028537838691,
+        "lacunarity": 0.0573689785058337,
+        "_area_direction": -0.013924022933169942
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9538836685536244,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.35344708285215265,
+            "convex_hull_area": 0.06221457899118375,
+            "bounding_depth": 0.015748070551356068,
+            "bounding_width": 0.0136986301369863,
+            "total_length": 0.03742219917012448,
+            "mean_diameter": 0.3483351152122891,
+            "n_tips": 0.4330357142857143,
+            "n_branch_points": 0.75,
+            "n_components": 0.18333333333333335,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.059651122435518136,
+            "lacunarity": 0.09136793861887689,
+            "_area_direction": -0.35344708285215265
+          },
+          "area_direction": -0.35344708285215265,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.5897761091493121,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5469107551487414,
+            "convex_hull_area": 0.06284975028581744,
+            "bounding_depth": 0.014134275618374558,
+            "bounding_width": 0.0228310502283105,
+            "total_length": 0.07407407407407407,
+            "mean_diameter": 0.46043118946464706,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0769230769230769,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07954986568461689,
+            "lacunarity": 0.11726605430424322,
+            "_area_direction": 0.5469107551487414
+          },
+          "area_direction": 0.5469107551487414,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9530885283700604,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.34007753639090044,
+            "convex_hull_area": 0.08378378378378379,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.2602564102564103,
+            "mean_diameter": 0.3592654823415192,
+            "n_tips": 1.2916666666666667,
+            "n_branch_points": 0.5673076923076923,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.03702366159529987,
+            "lacunarity": 0.16395203603257674,
+            "_area_direction": -0.34007753639090044
+          },
+          "area_direction": -0.34007753639090044,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9440541531826645,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3273260687342833,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.02459016393442623,
+            "total_length": 0.396011396011396,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.2608695652173913,
+            "n_branch_points": 0.85,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028692971430454878,
+            "lacunarity": 0.4828478855218469,
+            "_area_direction": -0.3273260687342833
+          },
+          "area_direction": -0.3273260687342833,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8725857754129535,
+          "n_masks": 211,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5468066491688539,
+            "convex_hull_area": 6.477122259820509,
+            "bounding_depth": 0.391304347826087,
+            "bounding_width": 0.8285714285714286,
+            "total_length": 4.225897920604915,
+            "mean_diameter": 0.7042192810036644,
+            "n_tips": 16.666666666666668,
+            "n_branch_points": 1.15,
+            "n_components": 528.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14248520101511009,
+            "lacunarity": 0.5364308544526425,
+            "_area_direction": 0.5468066491688539
+          },
+          "area_direction": 0.5468066491688539,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.871234078685884,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5469090909090909,
+            "convex_hull_area": 2.2153282980399425,
+            "bounding_depth": 0.10726643598615918,
+            "bounding_width": 0.41150442477876104,
+            "total_length": 0.10789473684210527,
+            "mean_diameter": 0.38727266594061105,
+            "n_tips": 1.0,
+            "n_branch_points": 0.125,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05949428248180745,
+            "lacunarity": 0.3823301970890188,
+            "_area_direction": 0.5469090909090909
+          },
+          "area_direction": 0.5469090909090909,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9538836685536244
+        ],
+        [
+          "junction_break",
+          0.9530885283700604
+        ],
+        [
+          "thin_dropout",
+          0.9440541531826645
+        ],
+        [
+          "speckle",
+          0.8725857754129535
+        ],
+        [
+          "blob",
+          0.871234078685884
+        ],
+        [
+          "boundary_dilate",
+          0.5897761091493121
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__manet_r34__s0": {
+      "median_dice_loss": 0.2758425312692412,
+      "mean_dice_loss": 0.4166023550145034,
+      "n_masks": 250,
+      "model_area_direction": -0.10913546872582619,
+      "model_vector": {
+        "pixel_area": 0.24510809108332327,
+        "convex_hull_area": 0.36383874577401315,
+        "bounding_depth": 0.10166666666666667,
+        "bounding_width": 0.11036265519453564,
+        "total_length": 0.25542574107683,
+        "mean_diameter": 0.23291698569777447,
+        "n_tips": 0.5,
+        "n_branch_points": 0.8,
+        "n_components": 1.0,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.036353640573730396,
+        "lacunarity": 0.12931642967643323,
+        "_area_direction": -0.10913546872582619
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9198987387338651,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.4324364281490242,
+            "convex_hull_area": 0.07886566887539966,
+            "bounding_depth": 0.019011406844106463,
+            "bounding_width": 0.0182648401826484,
+            "total_length": 0.043243243243243246,
+            "mean_diameter": 0.41731807644464547,
+            "n_tips": 0.4444444444444444,
+            "n_branch_points": 0.7209302325581395,
+            "n_components": 0.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.0799423784845141,
+            "lacunarity": 0.11701085846391865,
+            "_area_direction": -0.4324364281490242
+          },
+          "area_direction": -0.4324364281490242,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.5229237273731494,
+          "n_masks": 242,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.7621242137420874,
+            "convex_hull_area": 0.08065352324833125,
+            "bounding_depth": 0.01929260450160772,
+            "bounding_width": 0.028368794326241134,
+            "total_length": 0.09528091812264475,
+            "mean_diameter": 0.6359938216879317,
+            "n_tips": 0.4166666666666667,
+            "n_branch_points": 1.079192546583851,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.10222622277580111,
+            "lacunarity": 0.1584637416915297,
+            "_area_direction": 0.7621242137420874
+          },
+          "area_direction": 0.7621242137420874,
+          "direction_opposed": true
+        },
+        "junction_break": {
+          "similarity": NaN,
+          "n_masks": 0,
+          "vector": {},
+          "area_direction": null,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9405243564709483,
+          "n_masks": 225,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.40347222222222223,
+            "convex_hull_area": 0.283789913811806,
+            "bounding_depth": 0.03225806451612903,
+            "bounding_width": 0.03636363636363636,
+            "total_length": 0.46733668341708545,
+            "mean_diameter": 0.0956213200318823,
+            "n_tips": 0.25,
+            "n_branch_points": 0.8571428571428571,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.04251802929308508,
+            "lacunarity": 0.6295485853306446,
+            "_area_direction": -0.40347222222222223
+          },
+          "area_direction": -0.40347222222222223,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.9155257870999115,
+          "n_masks": 193,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.7616438356164383,
+            "convex_hull_area": 9.697133185232202,
+            "bounding_depth": 0.5763546798029556,
+            "bounding_width": 1.0,
+            "total_length": 5.895522388059701,
+            "mean_diameter": 0.7444903581267218,
+            "n_tips": 28.333333333333332,
+            "n_branch_points": 1.5,
+            "n_components": 671.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.15602232111567724,
+            "lacunarity": 0.6306913221620533,
+            "_area_direction": 0.7616438356164383
+          },
+          "area_direction": 0.7616438356164383,
+          "direction_opposed": true
+        },
+        "blob": {
+          "similarity": 0.9339701612337389,
+          "n_masks": 237,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.762087912087912,
+            "convex_hull_area": 2.6617101955604787,
+            "bounding_depth": 0.1791044776119403,
+            "bounding_width": 0.5458937198067633,
+            "total_length": 0.15184381778741865,
+            "mean_diameter": 0.524200783273825,
+            "n_tips": 1.3846153846153846,
+            "n_branch_points": 0.19047619047619047,
+            "n_components": 8.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05978169040784853,
+            "lacunarity": 0.4572202551128367,
+            "_area_direction": 0.762087912087912
+          },
+          "area_direction": 0.762087912087912,
+          "direction_opposed": true
+        }
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9405243564709483
+        ],
+        [
+          "boundary_erode",
+          0.9198987387338651
+        ]
+      ],
+      "excluded_by_direction": [
+        "boundary_dilate",
+        "speckle",
+        "blob"
+      ]
+    },
+    "peanut_640x480_DPI120__manet_r34__s1": {
+      "median_dice_loss": 0.20694374357381873,
+      "mean_dice_loss": 0.32950931484437473,
+      "n_masks": 250,
+      "model_area_direction": 0.001060011374118302,
+      "model_vector": {
+        "pixel_area": 0.1623565865890437,
+        "convex_hull_area": 0.15579996135662744,
+        "bounding_depth": 0.040547945205479455,
+        "bounding_width": 0.039503546099290784,
+        "total_length": 0.12337976843950366,
+        "mean_diameter": 0.201506746018661,
+        "n_tips": 0.4,
+        "n_branch_points": 0.8165064102564102,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.024266714957621238,
+        "lacunarity": 0.0618859141050458,
+        "_area_direction": 0.001060011374118302
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9490040073472896,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.34293119057646837,
+            "convex_hull_area": 0.05896257610539617,
+            "bounding_depth": 0.01567398119122257,
+            "bounding_width": 0.0136986301369863,
+            "total_length": 0.03508771929824561,
+            "mean_diameter": 0.3371336875759906,
+            "n_tips": 0.4,
+            "n_branch_points": 0.7003205128205128,
+            "n_components": 0.15476190476190477,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05598886297293876,
+            "lacunarity": 0.08772563684959621,
+            "_area_direction": -0.34293119057646837
+          },
+          "area_direction": -0.34293119057646837,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6062902423110773,
+          "n_masks": 248,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5220988661243275,
+            "convex_hull_area": 0.06121334545680415,
+            "bounding_depth": 0.014035778924169857,
+            "bounding_width": 0.02127659574468085,
+            "total_length": 0.08637307882274325,
+            "mean_diameter": 0.4305497570586033,
+            "n_tips": 0.375,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07631864285049461,
+            "lacunarity": 0.11205690094968158,
+            "_area_direction": 0.5220988661243275
+          },
+          "area_direction": 0.5220988661243275,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9137032000596248,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3507131885012069,
+            "convex_hull_area": 0.0918918918918919,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.21282051282051284,
+            "mean_diameter": 0.3762091448891976,
+            "n_tips": 1.3333333333333333,
+            "n_branch_points": 0.16346153846153846,
+            "n_components": 6.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.03936768363326043,
+            "lacunarity": 0.17668377901596174,
+            "_area_direction": -0.3507131885012069
+          },
+          "area_direction": -0.3507131885012069,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9446126040587194,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3138062064597847,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3876871880199667,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.2608695652173913,
+            "n_branch_points": 0.8461538461538461,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028031938448270084,
+            "lacunarity": 0.4684211426059308,
+            "_area_direction": -0.3138062064597847
+          },
+          "area_direction": -0.3138062064597847,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8657965997949533,
+          "n_masks": 215,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5216494845360825,
+            "convex_hull_area": 6.3246131171702284,
+            "bounding_depth": 0.391304347826087,
+            "bounding_width": 0.807909604519774,
+            "total_length": 4.085714285714285,
+            "mean_diameter": 0.7009264428183046,
+            "n_tips": 16.3,
+            "n_branch_points": 1.1,
+            "n_components": 507.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14179010950398996,
+            "lacunarity": 0.5219525907467143,
+            "_area_direction": 0.5216494845360825
+          },
+          "area_direction": 0.5216494845360825,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.795644418089698,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5230525690917486,
+            "convex_hull_area": 2.1431988647881615,
+            "bounding_depth": 0.07534246575342465,
+            "bounding_width": 0.39814814814814814,
+            "total_length": 0.11007751937984496,
+            "mean_diameter": 0.3738965210159096,
+            "n_tips": 1.0,
+            "n_branch_points": 0.022222222222222223,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05354362767523465,
+            "lacunarity": 0.37341684308039147,
+            "_area_direction": 0.5230525690917486
+          },
+          "area_direction": 0.5230525690917486,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9490040073472896
+        ],
+        [
+          "thin_dropout",
+          0.9446126040587194
+        ],
+        [
+          "junction_break",
+          0.9137032000596248
+        ],
+        [
+          "speckle",
+          0.8657965997949533
+        ],
+        [
+          "blob",
+          0.795644418089698
+        ],
+        [
+          "boundary_dilate",
+          0.6062902423110773
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__manet_r34__s2": {
+      "median_dice_loss": 0.23397227818428806,
+      "mean_dice_loss": 0.3465224060568015,
+      "n_masks": 250,
+      "model_area_direction": -0.059757463843203934,
+      "model_vector": {
+        "pixel_area": 0.19888802409531106,
+        "convex_hull_area": 0.23692325721344448,
+        "bounding_depth": 0.05744829336378632,
+        "bounding_width": 0.0496172772006561,
+        "total_length": 0.17480190515100363,
+        "mean_diameter": 0.19214733415380664,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.8255578093306288,
+        "n_components": 0.5,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.03368819546081324,
+        "lacunarity": 0.09587163485780839,
+        "_area_direction": -0.059757463843203934
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9436570351353089,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.37917202227934876,
+            "convex_hull_area": 0.06563267211413351,
+            "bounding_depth": 0.016632088520055325,
+            "bounding_width": 0.015915231340763253,
+            "total_length": 0.03845351835001516,
+            "mean_diameter": 0.3730399288264821,
+            "n_tips": 0.4772727272727273,
+            "n_branch_points": 0.8153409090909092,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.06430639897662703,
+            "lacunarity": 0.09695236600220494,
+            "_area_direction": -0.37917202227934876
+          },
+          "area_direction": -0.37917202227934876,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.581055536250659,
+          "n_masks": 246,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.6111909948601123,
+            "convex_hull_area": 0.06950315790825001,
+            "bounding_depth": 0.016103101338035473,
+            "bounding_width": 0.025,
+            "total_length": 0.0911825161719364,
+            "mean_diameter": 0.49810280767636506,
+            "n_tips": 0.4369034994697773,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.08657103464660751,
+            "lacunarity": 0.12999481282056405,
+            "_area_direction": 0.6111909948601123
+          },
+          "area_direction": 0.6111909948601123,
+          "direction_opposed": true
+        },
+        "junction_break": {
+          "similarity": NaN,
+          "n_masks": 0,
+          "vector": {},
+          "area_direction": null,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9553599695904458,
+          "n_masks": 228,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.36052255808825845,
+            "convex_hull_area": 0.24966260800187856,
+            "bounding_depth": 0.030330882352941176,
+            "bounding_width": 0.029095218516458268,
+            "total_length": 0.42939793004479104,
+            "mean_diameter": 0.09135163586258999,
+            "n_tips": 0.25,
+            "n_branch_points": 0.8571428571428571,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.03147504639006026,
+            "lacunarity": 0.5294393966600034,
+            "_area_direction": -0.36052255808825845
+          },
+          "area_direction": -0.36052255808825845,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8883142421320206,
+          "n_masks": 205,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.610752688172043,
+            "convex_hull_area": 7.212332132328857,
+            "bounding_depth": 0.46788990825688076,
+            "bounding_width": 0.893491124260355,
+            "total_length": 4.7408906882591095,
+            "mean_diameter": 0.7198156682027651,
+            "n_tips": 19.46153846153846,
+            "n_branch_points": 1.380952380952381,
+            "n_components": 584.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14631148840877164,
+            "lacunarity": 0.567288758474046,
+            "_area_direction": 0.610752688172043
+          },
+          "area_direction": 0.610752688172043,
+          "direction_opposed": true
+        },
+        "blob": {
+          "similarity": 0.9033244485454511,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.6109448894894315,
+            "convex_hull_area": 2.135259770420012,
+            "bounding_depth": 0.09926470588235294,
+            "bounding_width": 0.423963133640553,
+            "total_length": 0.12337662337662338,
+            "mean_diameter": 0.42794384057970997,
+            "n_tips": 1.0,
+            "n_branch_points": 0.16666666666666666,
+            "n_components": 7.6,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05737604905574118,
+            "lacunarity": 0.4082386126649048,
+            "_area_direction": 0.6109448894894315
+          },
+          "area_direction": 0.6109448894894315,
+          "direction_opposed": true
+        }
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9553599695904458
+        ],
+        [
+          "boundary_erode",
+          0.9436570351353089
+        ]
+      ],
+      "excluded_by_direction": [
+        "boundary_dilate",
+        "speckle",
+        "blob"
+      ]
+    },
+    "peanut_640x480_DPI120__unet_r34__s0": {
+      "median_dice_loss": 0.20960576102014156,
+      "mean_dice_loss": 0.3307031422332004,
+      "n_masks": 250,
+      "model_area_direction": -0.0022857153604669777,
+      "model_vector": {
+        "pixel_area": 0.17369506608379237,
+        "convex_hull_area": 0.14693563738449278,
+        "bounding_depth": 0.03784702328246263,
+        "bounding_width": 0.036474501108647445,
+        "total_length": 0.13031296979636464,
+        "mean_diameter": 0.20461257214988537,
+        "n_tips": 0.4409722222222222,
+        "n_branch_points": 0.7796495956873315,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023854970522496598,
+        "lacunarity": 0.06432756942174646,
+        "_area_direction": -0.0022857153604669777
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.6134734378999198,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3466793484942722,
+            "convex_hull_area": 0.06077158846568215,
+            "bounding_depth": 0.015690393736972542,
+            "bounding_width": 0.013652036156928525,
+            "total_length": 0.03574791498520312,
+            "mean_diameter": 0.34191730472027665,
+            "n_tips": 0.484375,
+            "n_branch_points": 0.7113095238095238,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.057814235693897015,
+            "lacunarity": 0.08834685449260896,
+            "_area_direction": -0.3466793484942722
+          },
+          "area_direction": -0.3466793484942722,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.609672414804321,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.530764029749831,
+            "convex_hull_area": 0.06257897587099104,
+            "bounding_depth": 0.014134275618374558,
+            "bounding_width": 0.02185792349726776,
+            "total_length": 0.08184764991896272,
+            "mean_diameter": 0.44338581126902293,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07744266178016765,
+            "lacunarity": 0.11370810493880242,
+            "_area_direction": 0.530764029749831
+          },
+          "area_direction": 0.530764029749831,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9208115092201314,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.2547216736156828,
+            "convex_hull_area": 0.08648648648648649,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.2448717948717949,
+            "mean_diameter": 0.25473524843795986,
+            "n_tips": 1.0833333333333333,
+            "n_branch_points": 0.16346153846153846,
+            "n_components": 5.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.024505187491790946,
+            "lacunarity": 0.09690058016520804,
+            "_area_direction": -0.2547216736156828
+          },
+          "area_direction": -0.2547216736156828,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9458903347510887,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3233258209916291,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3918067226890756,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.25,
+            "n_branch_points": 0.8461538461538461,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028692971430454878,
+            "lacunarity": 0.47596949050732024,
+            "_area_direction": -0.3233258209916291
+          },
+          "area_direction": -0.3233258209916291,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8640335764330815,
+          "n_masks": 215,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5302553340328786,
+            "convex_hull_area": 6.429403095062638,
+            "bounding_depth": 0.391304347826087,
+            "bounding_width": 0.807909604519774,
+            "total_length": 4.143911439114391,
+            "mean_diameter": 0.702361467318169,
+            "n_tips": 16.53846153846154,
+            "n_branch_points": 1.0588235294117647,
+            "n_components": 523.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.14303967696587566,
+            "lacunarity": 0.5269085097754951,
+            "_area_direction": 0.5302553340328786
+          },
+          "area_direction": 0.5302553340328786,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.8607628553842405,
+          "n_masks": 248,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5320537440142061,
+            "convex_hull_area": 1.975458670061164,
+            "bounding_depth": 0.0958904109589041,
+            "bounding_width": 0.3819048773588718,
+            "total_length": 0.11676306548233836,
+            "mean_diameter": 0.3724574237694057,
+            "n_tips": 1.0,
+            "n_branch_points": 0.08452380952380953,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.058524401385618666,
+            "lacunarity": 0.37403966030725944,
+            "_area_direction": 0.5320537440142061
+          },
+          "area_direction": 0.5320537440142061,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9458903347510887
+        ],
+        [
+          "junction_break",
+          0.9208115092201314
+        ],
+        [
+          "speckle",
+          0.8640335764330815
+        ],
+        [
+          "blob",
+          0.8607628553842405
+        ],
+        [
+          "boundary_erode",
+          0.6134734378999198
+        ],
+        [
+          "boundary_dilate",
+          0.609672414804321
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r34__s1": {
+      "median_dice_loss": 0.21096735043971726,
+      "mean_dice_loss": 0.32691821809444327,
+      "n_masks": 250,
+      "model_area_direction": 0.01415474782921488,
+      "model_vector": {
+        "pixel_area": 0.1754657239922538,
+        "convex_hull_area": 0.13567490348265313,
+        "bounding_depth": 0.028107443820224717,
+        "bounding_width": 0.03665413533834586,
+        "total_length": 0.11958040790628457,
+        "mean_diameter": 0.20180305401515478,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.75,
+        "n_components": 0.5,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.02401558050150651,
+        "lacunarity": 0.05893252084809958,
+        "_area_direction": 0.01415474782921488
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9573310528115646,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3482634315853259,
+            "convex_hull_area": 0.062187169513086824,
+            "bounding_depth": 0.015690393736972542,
+            "bounding_width": 0.014184397163120567,
+            "total_length": 0.03671597079198652,
+            "mean_diameter": 0.34386189026579306,
+            "n_tips": 0.5,
+            "n_branch_points": 0.747093023255814,
+            "n_components": 0.225,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05739952694996419,
+            "lacunarity": 0.08865208091453473,
+            "_area_direction": -0.3482634315853259
+          },
+          "area_direction": -0.3482634315853259,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.5707515780280229,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5346880804107943,
+            "convex_hull_area": 0.06251880377880739,
+            "bounding_depth": 0.014705882352941176,
+            "bounding_width": 0.021739130434782608,
+            "total_length": 0.08817635270541083,
+            "mean_diameter": 0.45445512726847653,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07861743078983277,
+            "lacunarity": 0.11467947837547698,
+            "_area_direction": 0.5346880804107943
+          },
+          "area_direction": 0.5346880804107943,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9585615253047661,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3151342257333041,
+            "convex_hull_area": 0.08378378378378379,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.191025641025641,
+            "mean_diameter": 0.31117005506435597,
+            "n_tips": 1.0416666666666665,
+            "n_branch_points": 0.375,
+            "n_components": 4.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.03595186194359047,
+            "lacunarity": 0.15878310969075218,
+            "_area_direction": -0.3151342257333041
+          },
+          "area_direction": -0.3151342257333041,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9420402881898043,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3233258209916291,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3918067226890756,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.25,
+            "n_branch_points": 0.85,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028692971430454878,
+            "lacunarity": 0.47596949050732024,
+            "_area_direction": -0.3233258209916291
+          },
+          "area_direction": -0.3233258209916291,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.885840801800731,
+          "n_masks": 214,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5349023304098436,
+            "convex_hull_area": 6.461106401424503,
+            "bounding_depth": 0.3853073463268366,
+            "bounding_width": 0.8130457113507961,
+            "total_length": 4.147999109301438,
+            "mean_diameter": 0.7022079364639557,
+            "n_tips": 16.4,
+            "n_branch_points": 1.300751879699248,
+            "n_components": 521.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.1424413931217841,
+            "lacunarity": 0.5288511958657472,
+            "_area_direction": 0.5349023304098436
+          },
+          "area_direction": 0.5349023304098436,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.8339328403508552,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5342902711323764,
+            "convex_hull_area": 1.9748307585488631,
+            "bounding_depth": 0.0958904109589041,
+            "bounding_width": 0.4222222222222222,
+            "total_length": 0.10679611650485436,
+            "mean_diameter": 0.37933393709537716,
+            "n_tips": 1.0,
+            "n_branch_points": 0.04,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05857985524338049,
+            "lacunarity": 0.3787981973614181,
+            "_area_direction": 0.5342902711323764
+          },
+          "area_direction": 0.5342902711323764,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "junction_break",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "junction_break",
+      "ranking": [
+        [
+          "junction_break",
+          0.9585615253047661
+        ],
+        [
+          "boundary_erode",
+          0.9573310528115646
+        ],
+        [
+          "thin_dropout",
+          0.9420402881898043
+        ],
+        [
+          "speckle",
+          0.885840801800731
+        ],
+        [
+          "blob",
+          0.8339328403508552
+        ],
+        [
+          "boundary_dilate",
+          0.5707515780280229
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r34__s2": {
+      "median_dice_loss": 0.20607373316660554,
+      "mean_dice_loss": 0.33133861187625874,
+      "n_masks": 250,
+      "model_area_direction": 0.012393808276280206,
+      "model_vector": {
+        "pixel_area": 0.16879834256612664,
+        "convex_hull_area": 0.13559762997202635,
+        "bounding_depth": 0.03141447368421053,
+        "bounding_width": 0.036222031391632076,
+        "total_length": 0.1274546827794562,
+        "mean_diameter": 0.2068454033485339,
+        "n_tips": 0.4472222222222222,
+        "n_branch_points": 0.8232998885172798,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.0198876760617166,
+        "lacunarity": 0.05985696313288036,
+        "_area_direction": 0.012393808276280206
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9534266050855669,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.34184313788546594,
+            "convex_hull_area": 0.05922155153506212,
+            "bounding_depth": 0.015772870662460567,
+            "bounding_width": 0.0136986301369863,
+            "total_length": 0.03628094019483452,
+            "mean_diameter": 0.3412573320050406,
+            "n_tips": 0.5,
+            "n_branch_points": 0.7774725274725275,
+            "n_components": 0.18333333333333335,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05675910555948489,
+            "lacunarity": 0.08681306128297173,
+            "_area_direction": -0.34184313788546594
+          },
+          "area_direction": -0.34184313788546594,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6079000355490025,
+          "n_masks": 248,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5191039354889164,
+            "convex_hull_area": 0.06029746373283369,
+            "bounding_depth": 0.013769730293406645,
+            "bounding_width": 0.021333485038115826,
+            "total_length": 0.08711734693877551,
+            "mean_diameter": 0.4187543342742795,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.0763979904012381,
+            "lacunarity": 0.11251833626154431,
+            "_area_direction": 0.5191039354889164
+          },
+          "area_direction": 0.5191039354889164,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9202515416585055,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.25698924731182793,
+            "convex_hull_area": 0.08648648648648649,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.2602564102564103,
+            "mean_diameter": 0.26217497556207237,
+            "n_tips": 0.9166666666666666,
+            "n_branch_points": 0.16346153846153846,
+            "n_components": 5.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.024659486378275235,
+            "lacunarity": 0.10295381566493664,
+            "_area_direction": -0.25698924731182793
+          },
+          "area_direction": -0.25698924731182793,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9452131511805246,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3138062064597847,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.3876871880199667,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.2608695652173913,
+            "n_branch_points": 0.8461538461538461,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028031938448270084,
+            "lacunarity": 0.4684211426059308,
+            "_area_direction": -0.3138062064597847
+          },
+          "area_direction": -0.3138062064597847,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8631431277382332,
+          "n_masks": 215,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5190302725788217,
+            "convex_hull_area": 6.315622697126013,
+            "bounding_depth": 0.3869565217391304,
+            "bounding_width": 0.807909604519774,
+            "total_length": 4.068965517241379,
+            "mean_diameter": 0.6999531176746367,
+            "n_tips": 16.11111111111111,
+            "n_branch_points": 1.0888888888888888,
+            "n_components": 509.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.1392431054897522,
+            "lacunarity": 0.5216332922284903,
+            "_area_direction": 0.5190302725788217
+          },
+          "area_direction": 0.5190302725788217,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.8681775215254457,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5195026816187226,
+            "convex_hull_area": 1.9262343145303156,
+            "bounding_depth": 0.09386281588447654,
+            "bounding_width": 0.36574074074074076,
+            "total_length": 0.1095890410958904,
+            "mean_diameter": 0.3672993827160494,
+            "n_tips": 1.0,
+            "n_branch_points": 0.1111111111111111,
+            "n_components": 5.75,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05396628352009047,
+            "lacunarity": 0.371438188233415,
+            "_area_direction": 0.5195026816187226
+          },
+          "area_direction": 0.5195026816187226,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9534266050855669
+        ],
+        [
+          "thin_dropout",
+          0.9452131511805246
+        ],
+        [
+          "junction_break",
+          0.9202515416585055
+        ],
+        [
+          "blob",
+          0.8681775215254457
+        ],
+        [
+          "speckle",
+          0.8631431277382332
+        ],
+        [
+          "boundary_dilate",
+          0.6079000355490025
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r50__s0": {
+      "median_dice_loss": 0.21777013835837367,
+      "mean_dice_loss": 0.3432039856027708,
+      "n_masks": 250,
+      "model_area_direction": 0.004188776664773173,
+      "model_vector": {
+        "pixel_area": 0.18357663310611408,
+        "convex_hull_area": 0.183867764105679,
+        "bounding_depth": 0.03593896713615023,
+        "bounding_width": 0.03877231443783276,
+        "total_length": 0.15104751215862328,
+        "mean_diameter": 0.22360827570570335,
+        "n_tips": 0.45584415584415583,
+        "n_branch_points": 0.8086080586080586,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023348577824245195,
+        "lacunarity": 0.06927278608374049,
+        "_area_direction": 0.004188776664773173
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.953327690233902,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.35752337945277235,
+            "convex_hull_area": 0.06433793140464816,
+            "bounding_depth": 0.015797827736293575,
+            "bounding_width": 0.015544458762886598,
+            "total_length": 0.04170388599350461,
+            "mean_diameter": 0.34963974814484866,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 0.6547619047619048,
+            "n_components": 0.18333333333333335,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.0600916886600783,
+            "lacunarity": 0.09170871511761916,
+            "_area_direction": -0.35752337945277235
+          },
+          "area_direction": -0.35752337945277235,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6127605667322387,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5572985908003191,
+            "convex_hull_area": 0.06405841596481766,
+            "bounding_depth": 0.014705882352941176,
+            "bounding_width": 0.022222222222222223,
+            "total_length": 0.07564575645756458,
+            "mean_diameter": 0.47502498823206957,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.08065449332256587,
+            "lacunarity": 0.11900144058861765,
+            "_area_direction": 0.5572985908003191
+          },
+          "area_direction": 0.5572985908003191,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.7681850159059627,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.35655767683417455,
+            "convex_hull_area": 0.051351351351351354,
+            "bounding_depth": 0.0,
+            "bounding_width": 0.03571428571428571,
+            "total_length": 0.20384615384615384,
+            "mean_diameter": 0.3962122483401963,
+            "n_tips": 1.5,
+            "n_branch_points": 0.16346153846153846,
+            "n_components": 8.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05509249495740409,
+            "lacunarity": 0.17031963133740557,
+            "_area_direction": -0.35655767683417455
+          },
+          "area_direction": -0.35655767683417455,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9485864091776053,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.33770348519611054,
+            "convex_hull_area": 0.22878032247131166,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.025,
+            "total_length": 0.4019815994338287,
+            "mean_diameter": 0.08523642799201535,
+            "n_tips": 0.25,
+            "n_branch_points": 0.8571428571428571,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028692971430454878,
+            "lacunarity": 0.4929566145549788,
+            "_area_direction": -0.33770348519611054
+          },
+          "area_direction": -0.33770348519611054,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8684378268732206,
+          "n_masks": 211,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5569620253164557,
+            "convex_hull_area": 6.479034868324261,
+            "bounding_depth": 0.391304347826087,
+            "bounding_width": 0.8285714285714286,
+            "total_length": 4.310344827586207,
+            "mean_diameter": 0.7067448680351905,
+            "n_tips": 17.333333333333332,
+            "n_branch_points": 1.2727272727272727,
+            "n_components": 534.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.1424166682805281,
+            "lacunarity": 0.5406264379993538,
+            "_area_direction": 0.5569620253164557
+          },
+          "area_direction": 0.5569620253164557,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.8543242142244377,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5573588115960997,
+            "convex_hull_area": 2.1259776023499173,
+            "bounding_depth": 0.13120567375886524,
+            "bounding_width": 0.3926940639269406,
+            "total_length": 0.11428571428571428,
+            "mean_diameter": 0.39933726292642724,
+            "n_tips": 1.0,
+            "n_branch_points": 0.075,
+            "n_components": 6.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05607986431088875,
+            "lacunarity": 0.3822950345489637,
+            "_area_direction": 0.5573588115960997
+          },
+          "area_direction": 0.5573588115960997,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.953327690233902
+        ],
+        [
+          "thin_dropout",
+          0.9485864091776053
+        ],
+        [
+          "speckle",
+          0.8684378268732206
+        ],
+        [
+          "blob",
+          0.8543242142244377
+        ],
+        [
+          "junction_break",
+          0.7681850159059627
+        ],
+        [
+          "boundary_dilate",
+          0.6127605667322387
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r50__s1": {
+      "median_dice_loss": 0.20207578271114446,
+      "mean_dice_loss": 0.32232483911533355,
+      "n_masks": 250,
+      "model_area_direction": -0.014418575979962754,
+      "model_vector": {
+        "pixel_area": 0.1700932936103689,
+        "convex_hull_area": 0.17028198003903083,
+        "bounding_depth": 0.0329004329004329,
+        "bounding_width": 0.03713553979511426,
+        "total_length": 0.1377286069090088,
+        "mean_diameter": 0.2002205041642611,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.7928571428571429,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.02181986239305123,
+        "lacunarity": 0.06297662785643728,
+        "_area_direction": -0.014418575979962754
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9503390950203787,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3362689121740281,
+            "convex_hull_area": 0.06112462697238276,
+            "bounding_depth": 0.015584520725388601,
+            "bounding_width": 0.013355629877369008,
+            "total_length": 0.038148742643124664,
+            "mean_diameter": 0.33298028704412114,
+            "n_tips": 0.5,
+            "n_branch_points": 0.7350877192982456,
+            "n_components": 0.15476190476190477,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.055410715556180726,
+            "lacunarity": 0.08427408272323561,
+            "_area_direction": -0.3362689121740281
+          },
+          "area_direction": -0.3362689121740281,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6092931370827797,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.506412908564336,
+            "convex_hull_area": 0.05894388152766952,
+            "bounding_depth": 0.0136986301369863,
+            "bounding_width": 0.020618556701030927,
+            "total_length": 0.08955223880597014,
+            "mean_diameter": 0.4102138595998536,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07468001506961759,
+            "lacunarity": 0.1093733315922243,
+            "_area_direction": 0.506412908564336
+          },
+          "area_direction": 0.506412908564336,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.942832450828947,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3117328651890864,
+            "convex_hull_area": 0.08378378378378379,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.191025641025641,
+            "mean_diameter": 0.30837146727480974,
+            "n_tips": 1.2083333333333333,
+            "n_branch_points": 0.41346153846153844,
+            "n_components": 5.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.03549754400112334,
+            "lacunarity": 0.15760821393873298,
+            "_area_direction": -0.3117328651890864
+          },
+          "area_direction": -0.3117328651890864,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9507896430551505,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3116945107398568,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.024291497975708502,
+            "bounding_width": 0.022727272727272728,
+            "total_length": 0.3842696629213483,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.2631578947368421,
+            "n_branch_points": 0.8461538461538461,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028031938448270084,
+            "lacunarity": 0.4381288485375888,
+            "_area_direction": -0.3116945107398568
+          },
+          "area_direction": -0.3116945107398568,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8728812299294255,
+          "n_masks": 219,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5062993448681337,
+            "convex_hull_area": 5.984382558219888,
+            "bounding_depth": 0.3559322033898305,
+            "bounding_width": 0.7486338797814208,
+            "total_length": 3.9732142857142856,
+            "mean_diameter": 0.6968801713932729,
+            "n_tips": 16.0,
+            "n_branch_points": 1.3333333333333333,
+            "n_components": 507.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.13849199846702184,
+            "lacunarity": 0.5115459714618834,
+            "_area_direction": 0.5062993448681337
+          },
+          "area_direction": 0.5062993448681337,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.813012211166121,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5061295971978984,
+            "convex_hull_area": 1.918048987082657,
+            "bounding_depth": 0.09246575342465753,
+            "bounding_width": 0.4212962962962963,
+            "total_length": 0.10517529215358931,
+            "mean_diameter": 0.36012080400792684,
+            "n_tips": 1.0,
+            "n_branch_points": 0.03125,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.06059082188565339,
+            "lacunarity": 0.3698837273906026,
+            "_area_direction": 0.5061295971978984
+          },
+          "area_direction": 0.5061295971978984,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9507896430551505
+        ],
+        [
+          "boundary_erode",
+          0.9503390950203787
+        ],
+        [
+          "junction_break",
+          0.942832450828947
+        ],
+        [
+          "speckle",
+          0.8728812299294255
+        ],
+        [
+          "blob",
+          0.813012211166121
+        ],
+        [
+          "boundary_dilate",
+          0.6092931370827797
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unet_r50__s2": {
+      "median_dice_loss": 0.21343376862603208,
+      "mean_dice_loss": 0.33427988210950366,
+      "n_masks": 250,
+      "model_area_direction": -0.006868586525625041,
+      "model_vector": {
+        "pixel_area": 0.1713460144441163,
+        "convex_hull_area": 0.14814735688364417,
+        "bounding_depth": 0.03456514813634916,
+        "bounding_width": 0.03327796234772979,
+        "total_length": 0.12959574966336868,
+        "mean_diameter": 0.20788911688556094,
+        "n_tips": 0.42857142857142855,
+        "n_branch_points": 0.7921727395411606,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.023071379244164456,
+        "lacunarity": 0.05824550702948781,
+        "_area_direction": -0.006868586525625041
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9567425851716777,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3518287222063884,
+            "convex_hull_area": 0.06171505903525213,
+            "bounding_depth": 0.015797827736293575,
+            "bounding_width": 0.013953790238836968,
+            "total_length": 0.037777511378884965,
+            "mean_diameter": 0.34556282230499225,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 0.7223320158102766,
+            "n_components": 0.25,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05858393532062466,
+            "lacunarity": 0.09044179528631158,
+            "_area_direction": -0.3518287222063884
+          },
+          "area_direction": -0.3518287222063884,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6071590537711705,
+          "n_masks": 247,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5427862753203804,
+            "convex_hull_area": 0.06391270459859703,
+            "bounding_depth": 0.014705882352941176,
+            "bounding_width": 0.02185792349726776,
+            "total_length": 0.07537154989384288,
+            "mean_diameter": 0.4652113065009104,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.0785125519985297,
+            "lacunarity": 0.11677129575829981,
+            "_area_direction": 0.5427862753203804
+          },
+          "area_direction": 0.5427862753203804,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.94075053511756,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3423451100870456,
+            "convex_hull_area": 0.08378378378378379,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.22179487179487178,
+            "mean_diameter": 0.3464614834144566,
+            "n_tips": 0.9583333333333334,
+            "n_branch_points": 0.41346153846153844,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.037279701708750404,
+            "lacunarity": 0.16870250009586454,
+            "_area_direction": -0.3423451100870456
+          },
+          "area_direction": -0.3423451100870456,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9438761745043753,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3273260687342833,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.025,
+            "bounding_width": 0.0234375,
+            "total_length": 0.396011396011396,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.25,
+            "n_branch_points": 0.85,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.02946601079954645,
+            "lacunarity": 0.4828478855218469,
+            "_area_direction": -0.3273260687342833
+          },
+          "area_direction": -0.3273260687342833,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8680069069386775,
+          "n_masks": 212,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.542339715945029,
+            "convex_hull_area": 6.476641306741776,
+            "bounding_depth": 0.3853073463268366,
+            "bounding_width": 0.8233766233766234,
+            "total_length": 4.212453501053229,
+            "mean_diameter": 0.7042629298659057,
+            "n_tips": 16.7,
+            "n_branch_points": 1.3037280701754388,
+            "n_components": 529.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.1450070001245765,
+            "lacunarity": 0.532530604713013,
+            "_area_direction": 0.542339715945029
+          },
+          "area_direction": 0.542339715945029,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.859407856792359,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5428702430077946,
+            "convex_hull_area": 2.1366449239003176,
+            "bounding_depth": 0.08823529411764706,
+            "bounding_width": 0.38636363636363635,
+            "total_length": 0.1076555023923445,
+            "mean_diameter": 0.38817204301075264,
+            "n_tips": 1.0,
+            "n_branch_points": 0.09523809523809523,
+            "n_components": 6.4,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05809246724012243,
+            "lacunarity": 0.3802325921778556,
+            "_area_direction": 0.5428702430077946
+          },
+          "area_direction": 0.5428702430077946,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9567425851716777
+        ],
+        [
+          "thin_dropout",
+          0.9438761745043753
+        ],
+        [
+          "junction_break",
+          0.94075053511756
+        ],
+        [
+          "speckle",
+          0.8680069069386775
+        ],
+        [
+          "blob",
+          0.859407856792359
+        ],
+        [
+          "boundary_dilate",
+          0.6071590537711705
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unetpp_r34__s0": {
+      "median_dice_loss": 0.1979000133226752,
+      "mean_dice_loss": 0.327429917632297,
+      "n_masks": 250,
+      "model_area_direction": -0.002924202876395874,
+      "model_vector": {
+        "pixel_area": 0.1601754746890958,
+        "convex_hull_area": 0.13147595209127755,
+        "bounding_depth": 0.03365221329106759,
+        "bounding_width": 0.03236279849183075,
+        "total_length": 0.12848919300532202,
+        "mean_diameter": 0.20460212034389663,
+        "n_tips": 0.4375,
+        "n_branch_points": 0.8024764150943396,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.01813814771581902,
+        "lacunarity": 0.05537516496741361,
+        "_area_direction": -0.002924202876395874
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.6072056445454121,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.33048752166068207,
+            "convex_hull_area": 0.05601143171171452,
+            "bounding_depth": 0.014888429141421605,
+            "bounding_width": 0.013333333333333334,
+            "total_length": 0.034420749767284424,
+            "mean_diameter": 0.32770802483991307,
+            "n_tips": 0.5,
+            "n_branch_points": 0.7207792207792207,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05381809084434948,
+            "lacunarity": 0.08233522719590668,
+            "_area_direction": -0.33048752166068207
+          },
+          "area_direction": -0.33048752166068207,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6031998287331606,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.4936460015446184,
+            "convex_hull_area": 0.05770503640411577,
+            "bounding_depth": 0.013043478260869565,
+            "bounding_width": 0.02040816326530612,
+            "total_length": 0.08362369337979095,
+            "mean_diameter": 0.40559723194306146,
+            "n_tips": 0.4,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07315068917254973,
+            "lacunarity": 0.10680265991232894,
+            "_area_direction": 0.4936460015446184
+          },
+          "area_direction": 0.4936460015446184,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9159636931189987,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.23771487089459437,
+            "convex_hull_area": 0.08648648648648649,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.191025641025641,
+            "mean_diameter": 0.21826682925790436,
+            "n_tips": 1.0833333333333333,
+            "n_branch_points": 0.125,
+            "n_components": 4.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.023592119166711265,
+            "lacunarity": 0.09025013762360973,
+            "_area_direction": -0.23771487089459437
+          },
+          "area_direction": -0.23771487089459437,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9475735916743199,
+          "n_masks": 232,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.30083619450883375,
+            "convex_hull_area": 0.20628287886165247,
+            "bounding_depth": 0.023197955890263584,
+            "bounding_width": 0.022727272727272728,
+            "total_length": 0.37745953380479746,
+            "mean_diameter": 0.08332815002195479,
+            "n_tips": 0.2631578947368421,
+            "n_branch_points": 0.8480769230769231,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.027956964696758076,
+            "lacunarity": 0.4038179905710633,
+            "_area_direction": -0.30083619450883375
+          },
+          "area_direction": -0.30083619450883375,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.865243275046006,
+          "n_masks": 219,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.49346645132873296,
+            "convex_hull_area": 5.964342478059567,
+            "bounding_depth": 0.3559322033898305,
+            "bounding_width": 0.7486338797814208,
+            "total_length": 3.8676789587852496,
+            "mean_diameter": 0.6936360232138549,
+            "n_tips": 15.8,
+            "n_branch_points": 1.0857142857142856,
+            "n_components": 493.6666666666667,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.13475412468372153,
+            "lacunarity": 0.5059781557503024,
+            "_area_direction": 0.49346645132873296
+          },
+          "area_direction": 0.49346645132873296,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.867418666526837,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.49442896935933145,
+            "convex_hull_area": 1.9597641857037582,
+            "bounding_depth": 0.0958904109589041,
+            "bounding_width": 0.40860215053763443,
+            "total_length": 0.10774410774410774,
+            "mean_diameter": 0.3484199677598372,
+            "n_tips": 1.0,
+            "n_branch_points": 0.125,
+            "n_components": 5.666666666666667,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05532563379031067,
+            "lacunarity": 0.3576859923659294,
+            "_area_direction": 0.49442896935933145
+          },
+          "area_direction": 0.49442896935933145,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9475735916743199
+        ],
+        [
+          "junction_break",
+          0.9159636931189987
+        ],
+        [
+          "blob",
+          0.867418666526837
+        ],
+        [
+          "speckle",
+          0.865243275046006
+        ],
+        [
+          "boundary_erode",
+          0.6072056445454121
+        ],
+        [
+          "boundary_dilate",
+          0.6031998287331606
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unetpp_r34__s1": {
+      "median_dice_loss": 0.19851557072952664,
+      "mean_dice_loss": 0.3191255806604476,
+      "n_masks": 250,
+      "model_area_direction": -0.011544649535831565,
+      "model_vector": {
+        "pixel_area": 0.15331374968182737,
+        "convex_hull_area": 0.13088110811850712,
+        "bounding_depth": 0.025657894736842105,
+        "bounding_width": 0.03524297469337059,
+        "total_length": 0.11259364745217014,
+        "mean_diameter": 0.1693859736630411,
+        "n_tips": 0.4330357142857143,
+        "n_branch_points": 0.7857142857142857,
+        "n_components": 0.25,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.020091078345499447,
+        "lacunarity": 0.053034836914600605,
+        "_area_direction": -0.011544649535831565
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.6299014879531769,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3313436444626169,
+            "convex_hull_area": 0.05580606607769664,
+            "bounding_depth": 0.015625,
+            "bounding_width": 0.013423423423423425,
+            "total_length": 0.035937032117735024,
+            "mean_diameter": 0.3250338326693458,
+            "n_tips": 0.5,
+            "n_branch_points": 0.7158385093167702,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05413609788850805,
+            "lacunarity": 0.082331522490942,
+            "_area_direction": -0.3313436444626169
+          },
+          "area_direction": -0.3313436444626169,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6272575976109286,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.4955555555555556,
+            "convex_hull_area": 0.05817107158221574,
+            "bounding_depth": 0.0136986301369863,
+            "bounding_width": 0.020202020202020204,
+            "total_length": 0.0848729792147806,
+            "mean_diameter": 0.39362131297615166,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07372143221975265,
+            "lacunarity": 0.10699939617650481,
+            "_area_direction": 0.4955555555555556
+          },
+          "area_direction": 0.4955555555555556,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.779367723471446,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.36222661107453735,
+            "convex_hull_area": 0.051351351351351354,
+            "bounding_depth": 0.0,
+            "bounding_width": 0.03571428571428571,
+            "total_length": 0.21153846153846156,
+            "mean_diameter": 0.40334998715665316,
+            "n_tips": 1.5,
+            "n_branch_points": 0.20192307692307693,
+            "n_components": 8.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05651033728548846,
+            "lacunarity": 0.17171213932073376,
+            "_area_direction": -0.36222661107453735
+          },
+          "area_direction": -0.36222661107453735,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9493402888517961,
+          "n_masks": 232,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.30083619450883375,
+            "convex_hull_area": 0.20628287886165247,
+            "bounding_depth": 0.023197955890263584,
+            "bounding_width": 0.022727272727272728,
+            "total_length": 0.37745953380479746,
+            "mean_diameter": 0.08332815002195479,
+            "n_tips": 0.2631578947368421,
+            "n_branch_points": 0.8480769230769231,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.02790580061900648,
+            "lacunarity": 0.4038179905710633,
+            "_area_direction": -0.30083619450883375
+          },
+          "area_direction": -0.30083619450883375,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.8569051623843973,
+          "n_masks": 219,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.4955357142857143,
+            "convex_hull_area": 5.988321470527262,
+            "bounding_depth": 0.3559322033898305,
+            "bounding_width": 0.7486338797814208,
+            "total_length": 3.8726937269372694,
+            "mean_diameter": 0.6932885948495318,
+            "n_tips": 15.0,
+            "n_branch_points": 1.162162162162162,
+            "n_components": 494.3333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.13601679232993436,
+            "lacunarity": 0.5052290784340697,
+            "_area_direction": 0.4955357142857143
+          },
+          "area_direction": 0.4955357142857143,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.4682340042956351,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.4968203497615262,
+            "convex_hull_area": 1.944280794921794,
+            "bounding_depth": 0.0958904109589041,
+            "bounding_width": 0.3972602739726027,
+            "total_length": 0.0962962962962963,
+            "mean_diameter": 0.3660365058670144,
+            "n_tips": 0.90625,
+            "n_branch_points": 0.0,
+            "n_components": 5.6,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.0564478357012721,
+            "lacunarity": 0.36227392306768297,
+            "_area_direction": 0.4968203497615262
+          },
+          "area_direction": 0.4968203497615262,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "thin_dropout",
+      "nearest_family": "lost_structure",
+      "nearest_ignoring_direction": "thin_dropout",
+      "ranking": [
+        [
+          "thin_dropout",
+          0.9493402888517961
+        ],
+        [
+          "speckle",
+          0.8569051623843973
+        ],
+        [
+          "junction_break",
+          0.779367723471446
+        ],
+        [
+          "boundary_erode",
+          0.6299014879531769
+        ],
+        [
+          "boundary_dilate",
+          0.6272575976109286
+        ],
+        [
+          "blob",
+          0.4682340042956351
+        ]
+      ],
+      "excluded_by_direction": []
+    },
+    "peanut_640x480_DPI120__unetpp_r34__s2": {
+      "median_dice_loss": 0.2023312081363069,
+      "mean_dice_loss": 0.31739414462201365,
+      "n_masks": 250,
+      "model_area_direction": 0.007960104033154943,
+      "model_vector": {
+        "pixel_area": 0.14916584530423638,
+        "convex_hull_area": 0.118557702688114,
+        "bounding_depth": 0.02539912917271408,
+        "bounding_width": 0.031625,
+        "total_length": 0.11462148699076988,
+        "mean_diameter": 0.18083387220663394,
+        "n_tips": 0.4330357142857143,
+        "n_branch_points": 0.7692307692307693,
+        "n_components": 0.3333333333333333,
+        "n_holes": 0.0,
+        "fractal_dimension": 0.020460531206361716,
+        "lacunarity": 0.05329983657707393,
+        "_area_direction": 0.007960104033154943
+      },
+      "model_vector_by_kind": {
+        "pixel_area": "integral",
+        "convex_hull_area": "extremum",
+        "bounding_depth": "extremum",
+        "bounding_width": "extremum",
+        "total_length": "integral",
+        "mean_diameter": "integral",
+        "n_tips": "count",
+        "n_branch_points": "count",
+        "n_components": "count",
+        "n_holes": "count",
+        "fractal_dimension": "fitted",
+        "lacunarity": "integral"
+      },
+      "degradations": {
+        "boundary_erode": {
+          "similarity": 0.9553420770008936,
+          "n_masks": 250,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3366868266915095,
+            "convex_hull_area": 0.057561598892111376,
+            "bounding_depth": 0.01567398119122257,
+            "bounding_width": 0.013490763490763492,
+            "total_length": 0.03337975858867224,
+            "mean_diameter": 0.33347168660067816,
+            "n_tips": 0.4891304347826087,
+            "n_branch_points": 0.7321428571428572,
+            "n_components": 0.18333333333333335,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.054671081230773785,
+            "lacunarity": 0.08586272070787923,
+            "_area_direction": -0.3366868266915095
+          },
+          "area_direction": -0.3366868266915095,
+          "direction_opposed": false
+        },
+        "boundary_dilate": {
+          "similarity": 0.6017747176287563,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.507263414224536,
+            "convex_hull_area": 0.06209759913352187,
+            "bounding_depth": 0.0136986301369863,
+            "bounding_width": 0.020761245674740483,
+            "total_length": 0.08843537414965986,
+            "mean_diameter": 0.41099016147000794,
+            "n_tips": 0.42857142857142855,
+            "n_branch_points": 1.0,
+            "n_components": 0.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.07474077678348759,
+            "lacunarity": 0.10912471047680092,
+            "_area_direction": 0.507263414224536
+          },
+          "area_direction": 0.507263414224536,
+          "direction_opposed": false
+        },
+        "junction_break": {
+          "similarity": 0.9244199768835704,
+          "n_masks": 2,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.2603906078560456,
+            "convex_hull_area": 0.08648648648648649,
+            "bounding_depth": 0.0625,
+            "bounding_width": 0.08928571428571429,
+            "total_length": 0.23717948717948717,
+            "mean_diameter": 0.2560861764060463,
+            "n_tips": 1.25,
+            "n_branch_points": 0.20192307692307693,
+            "n_components": 6.5,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.024505187491790946,
+            "lacunarity": 0.09470950475317633,
+            "_area_direction": -0.2603906078560456
+          },
+          "area_direction": -0.2603906078560456,
+          "direction_opposed": false
+        },
+        "thin_dropout": {
+          "similarity": 0.9460351119304254,
+          "n_masks": 231,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.3116945107398568,
+            "convex_hull_area": 0.22480173838753412,
+            "bounding_depth": 0.024291497975708502,
+            "bounding_width": 0.022727272727272728,
+            "total_length": 0.3842696629213483,
+            "mean_diameter": 0.08287451721587633,
+            "n_tips": 0.2631578947368421,
+            "n_branch_points": 0.8461538461538461,
+            "n_components": 0.3333333333333333,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.028031938448270084,
+            "lacunarity": 0.4381288485375888,
+            "_area_direction": -0.3116945107398568
+          },
+          "area_direction": -0.3116945107398568,
+          "direction_opposed": false
+        },
+        "speckle": {
+          "similarity": 0.870848610054498,
+          "n_masks": 219,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.507168458781362,
+            "convex_hull_area": 6.006012024048096,
+            "bounding_depth": 0.3559322033898305,
+            "bounding_width": 0.7486338797814208,
+            "total_length": 3.9735349716446127,
+            "mean_diameter": 0.6963988740947132,
+            "n_tips": 16.428571428571427,
+            "n_branch_points": 1.25,
+            "n_components": 499.6666666666667,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.13699399549007424,
+            "lacunarity": 0.5132972364455455,
+            "_area_direction": 0.507168458781362
+          },
+          "area_direction": 0.507168458781362,
+          "direction_opposed": false
+        },
+        "blob": {
+          "similarity": 0.8652999997437422,
+          "n_masks": 249,
+          "n_traits": 12,
+          "vector": {
+            "pixel_area": 0.5096930533117933,
+            "convex_hull_area": 2.0502576409966826,
+            "bounding_depth": 0.11071428571428571,
+            "bounding_width": 0.39814814814814814,
+            "total_length": 0.09864603481624758,
+            "mean_diameter": 0.37317386089695137,
+            "n_tips": 1.0,
+            "n_branch_points": 0.125,
+            "n_components": 6.0,
+            "n_holes": 0.0,
+            "fractal_dimension": 0.05579186164875224,
+            "lacunarity": 0.36551866658006316,
+            "_area_direction": 0.5096930533117933
+          },
+          "area_direction": 0.5096930533117933,
+          "direction_opposed": false
+        }
+      },
+      "nearest": "boundary_erode",
+      "nearest_family": "under_inclusive",
+      "nearest_ignoring_direction": "boundary_erode",
+      "ranking": [
+        [
+          "boundary_erode",
+          0.9553420770008936
+        ],
+        [
+          "thin_dropout",
+          0.9460351119304254
+        ],
+        [
+          "junction_break",
+          0.9244199768835704
+        ],
+        [
+          "speckle",
+          0.870848610054498
+        ],
+        [
+          "blob",
+          0.8652999997437422
+        ],
+        [
+          "boundary_dilate",
+          0.6017747176287563
+        ]
+      ],
+      "excluded_by_direction": []
+    }
+  },
+  "resolution_floor": "see results/prmi_floor_peanut_640x480_DPI120.json (src/prmi_floor.py)"
+}

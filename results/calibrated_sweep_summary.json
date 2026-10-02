@@ -1,0 +1,22 @@
+{
+  "n_rows": 864,
+  "n_reachable": 790,
+  "doses": [
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "kind_ordering_holds_at_matched_dose": false,
+  "calibration_max_abs_error": 0.03486795980369245,
+  "winner_by_dose": {
+    "0.005": "boundary_dilate",
+    "0.01": "boundary_dilate",
+    "0.02": "boundary_dilate",
+    "0.05": "boundary_dilate",
+    "0.1": "boundary_dilate",
+    "0.2": "junction_break"
+  }
+}

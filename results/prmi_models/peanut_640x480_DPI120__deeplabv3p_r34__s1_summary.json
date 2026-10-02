@@ -1,0 +1,16 @@
+{
+  "arch": "deeplabv3p_r34",
+  "seed": 1,
+  "config": "peanut_640x480_DPI120",
+  "size": 320,
+  "epochs": 20,
+  "batch": 16,
+  "lr": 0.0003,
+  "n_test": 3542,
+  "n_test_nonempty": 1683,
+  "mean_dice_all_frames": 0.838450379664569,
+  "mean_dice_nonempty_only": 0.6956573052714815,
+  "mean_dice_empty_only": 0.9677245831091985,
+  "pred_empty_rate": 0.554488989271598,
+  "train_seconds": 481.16375756263733
+}

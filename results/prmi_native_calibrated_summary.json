@@ -1,0 +1,498 @@
+{
+  "n_masks": 96,
+  "n_configs": 8,
+  "n_species": 6,
+  "reachable_share": 0.9071180555555556,
+  "doses": {
+    "0.01": {
+      "achieved_loss_mean": 0.01083127799703666,
+      "traits": {
+        "pixel_area": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.022170989728134135,
+            "boundary_dilate": 0.01989707959102977,
+            "boundary_erode": 0.019665329009599886,
+            "junction_break": 0.01926914679997919,
+            "speckle": 0.02025967534579136,
+            "thin_dropout": 0.019431179270731562
+          },
+          "min": 0.01926914679997919,
+          "max": 0.022170989728134135,
+          "argmax": "blob"
+        },
+        "convex_hull_area": {
+          "kind": "extremum",
+          "by_degradation": {
+            "blob": 0.13783908125129524,
+            "boundary_dilate": 0.002417593783876332,
+            "boundary_erode": 0.0004125357127585762,
+            "junction_break": 0.0,
+            "speckle": 0.9840671492666835,
+            "thin_dropout": 0.008684325614606789
+          },
+          "min": 0.0,
+          "max": 0.9840671492666835,
+          "argmax": "speckle"
+        },
+        "bounding_depth": {
+          "kind": "extremum",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 0.0,
+            "boundary_erode": 0.0,
+            "junction_break": 0.0,
+            "speckle": 0.03726212299991426,
+            "thin_dropout": 0.0
+          },
+          "min": 0.0,
+          "max": 0.03726212299991426,
+          "argmax": "speckle"
+        },
+        "bounding_width": {
+          "kind": "extremum",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 0.0,
+            "boundary_erode": 0.0,
+            "junction_break": 0.0,
+            "speckle": 0.05619133341905619,
+            "thin_dropout": 0.0
+          },
+          "min": 0.0,
+          "max": 0.05619133341905619,
+          "argmax": "speckle"
+        },
+        "total_length": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.004415204678362573,
+            "boundary_dilate": 0.10630003877830776,
+            "boundary_erode": 0.029711012339547406,
+            "junction_break": 0.09046109072671119,
+            "speckle": 0.2343627997769102,
+            "thin_dropout": 0.04670648078602353
+          },
+          "min": 0.004415204678362573,
+          "max": 0.2343627997769102,
+          "argmax": "speckle"
+        },
+        "mean_diameter": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.017507320610235008,
+            "boundary_dilate": 0.0775871613372038,
+            "boundary_erode": 0.04769315236723834,
+            "junction_break": 0.10163603985007869,
+            "speckle": 0.17470252535198127,
+            "thin_dropout": 0.02819530001619937
+          },
+          "min": 0.017507320610235008,
+          "max": 0.17470252535198127,
+          "argmax": "speckle"
+        },
+        "n_tips": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 0.7670967741935484,
+            "boundary_erode": 0.2857142857142857,
+            "junction_break": 0.10263157894736842,
+            "speckle": 0.1111111111111111,
+            "thin_dropout": 0.25565610859728505
+          },
+          "min": 0.0,
+          "max": 0.7670967741935484,
+          "argmax": "boundary_dilate"
+        },
+        "n_branch_points": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 1.5,
+            "boundary_erode": 0.2799145299145299,
+            "junction_break": 0.5347222222222222,
+            "speckle": 0.03977871443624868,
+            "thin_dropout": 0.3520408163265306
+          },
+          "min": 0.0,
+          "max": 1.5,
+          "argmax": "boundary_dilate"
+        },
+        "n_components": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 1.0,
+            "boundary_dilate": 0.0,
+            "boundary_erode": 0.0,
+            "junction_break": 0.0,
+            "speckle": 85.375,
+            "thin_dropout": 0.0787878787878788
+          },
+          "min": 0.0,
+          "max": 85.375,
+          "argmax": "speckle"
+        },
+        "n_holes": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 2.0,
+            "boundary_erode": 0.0,
+            "junction_break": 5.0,
+            "speckle": 0.0,
+            "thin_dropout": 0.0
+          },
+          "min": 0.0,
+          "max": 5.0,
+          "argmax": "junction_break"
+        },
+        "fractal_dimension": {
+          "kind": "fitted",
+          "by_degradation": {
+            "blob": 0.020107133102875215,
+            "boundary_dilate": 0.004739284732602862,
+            "boundary_erode": 0.001333068852138118,
+            "junction_break": 0.0009595998011460237,
+            "speckle": 0.12908412153709287,
+            "thin_dropout": 0.0032179572679243776
+          },
+          "min": 0.0009595998011460237,
+          "max": 0.12908412153709287,
+          "argmax": "speckle"
+        },
+        "lacunarity": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.03324196369488096,
+            "boundary_dilate": 0.0050832571066152955,
+            "boundary_erode": 0.004570772856231217,
+            "junction_break": 0.0028184493426042538,
+            "speckle": 0.0338651996733715,
+            "thin_dropout": 0.008889109206715914
+          },
+          "min": 0.0028184493426042538,
+          "max": 0.0338651996733715,
+          "argmax": "speckle"
+        }
+      },
+      "by_config": {
+        "cotton_736x552_DPI150": {
+          "integral_max": 0.23875641262957478,
+          "count_max": 132.75,
+          "pixel_area_span": [
+            0.018693829472891613,
+            0.025995740789749023
+          ]
+        },
+        "papaya_736x552_DPI150": {
+          "integral_max": 0.5254052171923576,
+          "count_max": 276.11428571428576,
+          "pixel_area_span": [
+            0.018519175821250466,
+            0.020505210283429713
+          ]
+        },
+        "peanut_640x480_DPI120": {
+          "integral_max": 0.2701709401709402,
+          "count_max": 125.625,
+          "pixel_area_span": [
+            0.01859340024550509,
+            0.021149246784195518
+          ]
+        },
+        "peanut_736x552_DPI150": {
+          "integral_max": 0.27420122116973006,
+          "count_max": 85.75,
+          "pixel_area_span": [
+            0.019215222708907458,
+            0.021832187145021192
+          ]
+        },
+        "sesame_640x480_DPI120": {
+          "integral_max": 0.1913834043614272,
+          "count_max": 57.45833333333333,
+          "pixel_area_span": [
+            0.018610625391679767,
+            0.024684819529789737
+          ]
+        },
+        "sesame_736x552_DPI150": {
+          "integral_max": 0.2127340774588728,
+          "count_max": 90.26190476190476,
+          "pixel_area_span": [
+            0.018446938424706988,
+            0.02097233589120291
+          ]
+        },
+        "sunflower_640x480_DPI120": {
+          "integral_max": 0.20308461735750782,
+          "count_max": 75.33333333333334,
+          "pixel_area_span": [
+            0.01941394101588124,
+            0.0258390476597372
+          ]
+        },
+        "switchgrass_720x510_DPI300": {
+          "integral_max": 0.14704513686458237,
+          "count_max": 15.970394736842106,
+          "pixel_area_span": [
+            0.017830448677291104,
+            0.02409257496651182
+          ]
+        }
+      },
+      "count_exceeds_integral_in_every_config": true,
+      "dilate_vs_junction_branch_points": {
+        "n": 86,
+        "dilate_larger_in": 76,
+        "median_difference": 0.8605769230769231
+      }
+    },
+    "0.05": {
+      "achieved_loss_mean": 0.05060631629328073,
+      "traits": {
+        "pixel_area": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.10475956211952059,
+            "boundary_dilate": 0.10554160361295435,
+            "boundary_erode": 0.09496123432948159,
+            "junction_break": 0.09428301133731928,
+            "speckle": 0.10516435522182209,
+            "thin_dropout": 0.09494782002194616
+          },
+          "min": 0.09428301133731928,
+          "max": 0.10554160361295435,
+          "argmax": "boundary_dilate"
+        },
+        "convex_hull_area": {
+          "kind": "extremum",
+          "by_degradation": {
+            "blob": 0.571377874989735,
+            "boundary_dilate": 0.0068031984797813526,
+            "boundary_erode": 0.005245597380845714,
+            "junction_break": 0.0,
+            "speckle": 1.0640743097086143,
+            "thin_dropout": 0.030539485613814074
+          },
+          "min": 0.0,
+          "max": 1.0640743097086143,
+          "argmax": "speckle"
+        },
+        "bounding_depth": {
+          "kind": "extremum",
+          "by_degradation": {
+            "blob": 0.0018148820326678765,
+            "boundary_dilate": 0.002155182424115748,
+            "boundary_erode": 0.002085508002783577,
+            "junction_break": 0.0,
+            "speckle": 0.03969754253308128,
+            "thin_dropout": 0.007435175427989013
+          },
+          "min": 0.0,
+          "max": 0.03969754253308128,
+          "argmax": "speckle"
+        },
+        "bounding_width": {
+          "kind": "extremum",
+          "by_degradation": {
+            "blob": 0.03709715922654572,
+            "boundary_dilate": 0.0014198247438470903,
+            "boundary_erode": 0.002717391304347826,
+            "junction_break": 0.0,
+            "speckle": 0.06204906204906205,
+            "thin_dropout": 0.006317452398769435
+          },
+          "min": 0.0,
+          "max": 0.06204906204906205,
+          "argmax": "speckle"
+        },
+        "total_length": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.022584116981817483,
+            "boundary_dilate": 0.14043339157382184,
+            "boundary_erode": 0.09789658978522026,
+            "junction_break": 0.17600757929055927,
+            "speckle": 1.1916411824668705,
+            "thin_dropout": 0.15364558184451954
+          },
+          "min": 0.022584116981817483,
+          "max": 1.1916411824668705,
+          "argmax": "speckle"
+        },
+        "mean_diameter": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.0793065795297552,
+            "boundary_dilate": 0.05629687077792342,
+            "boundary_erode": 0.1771413508850446,
+            "junction_break": 0.2301718588015753,
+            "speckle": 0.4941830376026409,
+            "thin_dropout": 0.0773568323783146
+          },
+          "min": 0.05629687077792342,
+          "max": 0.4941830376026409,
+          "argmax": "speckle"
+        },
+        "n_tips": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 0.25,
+            "boundary_dilate": 0.7115384615384615,
+            "boundary_erode": 1.1176923076923078,
+            "junction_break": 0.45530225409836067,
+            "speckle": 2.2666666666666666,
+            "thin_dropout": 0.3333333333333333
+          },
+          "min": 0.25,
+          "max": 2.2666666666666666,
+          "argmax": "speckle"
+        },
+        "n_branch_points": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 2.026851851851852,
+            "boundary_erode": 1.3982965086861192,
+            "junction_break": 0.5907407407407408,
+            "speckle": 0.2553191489361702,
+            "thin_dropout": 0.6576704545454546
+          },
+          "min": 0.0,
+          "max": 2.026851851851852,
+          "argmax": "boundary_dilate"
+        },
+        "n_components": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 4.0,
+            "boundary_dilate": 0.0,
+            "boundary_erode": 0.5,
+            "junction_break": 0.8552631578947368,
+            "speckle": 459.75,
+            "thin_dropout": 0.6
+          },
+          "min": 0.0,
+          "max": 459.75,
+          "argmax": "speckle"
+        },
+        "n_holes": {
+          "kind": "count",
+          "by_degradation": {
+            "blob": 0.0,
+            "boundary_dilate": 7.0,
+            "boundary_erode": 0.0,
+            "junction_break": 8.5,
+            "speckle": 0.0,
+            "thin_dropout": 0.0
+          },
+          "min": 0.0,
+          "max": 8.5,
+          "argmax": "junction_break"
+        },
+        "fractal_dimension": {
+          "kind": "fitted",
+          "by_degradation": {
+            "blob": 0.054458563005618965,
+            "boundary_dilate": 0.01773052031717627,
+            "boundary_erode": 0.009441776478435308,
+            "junction_break": 0.0061378182553774975,
+            "speckle": 0.07027606879935369,
+            "thin_dropout": 0.014499760336608972
+          },
+          "min": 0.0061378182553774975,
+          "max": 0.07027606879935369,
+          "argmax": "speckle"
+        },
+        "lacunarity": {
+          "kind": "integral",
+          "by_degradation": {
+            "blob": 0.14158180285251915,
+            "boundary_dilate": 0.023868961523179126,
+            "boundary_erode": 0.022599463507077755,
+            "junction_break": 0.02324771415347145,
+            "speckle": 0.15886360902001875,
+            "thin_dropout": 0.06369784814693633
+          },
+          "min": 0.022599463507077755,
+          "max": 0.15886360902001875,
+          "argmax": "speckle"
+        }
+      },
+      "by_config": {
+        "cotton_736x552_DPI150": {
+          "integral_max": 1.3082628757024282,
+          "count_max": 636.0,
+          "pixel_area_span": [
+            0.05900135515480037,
+            0.10609130049075392
+          ]
+        },
+        "papaya_736x552_DPI150": {
+          "integral_max": 2.792734047508151,
+          "count_max": 1309.0,
+          "pixel_area_span": [
+            0.09466722726698924,
+            0.10528350515463918
+          ]
+        },
+        "peanut_640x480_DPI120": {
+          "integral_max": 1.3366678994082841,
+          "count_max": 631.0,
+          "pixel_area_span": [
+            0.0939707573517332,
+            0.10554160361295435
+          ]
+        },
+        "peanut_736x552_DPI150": {
+          "integral_max": 1.3472475253537377,
+          "count_max": 460.375,
+          "pixel_area_span": [
+            0.08888259185793898,
+            0.10666734681801535
+          ]
+        },
+        "sesame_640x480_DPI120": {
+          "integral_max": 0.9892388375471023,
+          "count_max": 285.83333333333337,
+          "pixel_area_span": [
+            0.09398157602945435,
+            0.1045174002632133
+          ]
+        },
+        "sesame_736x552_DPI150": {
+          "integral_max": 1.2173544114489352,
+          "count_max": 507.3809523809524,
+          "pixel_area_span": [
+            0.09453512562009922,
+            0.10584577452321547
+          ]
+        },
+        "sunflower_640x480_DPI120": {
+          "integral_max": 1.0494529794722067,
+          "count_max": 368.5,
+          "pixel_area_span": [
+            0.09155060171828108,
+            0.10675656346963965
+          ]
+        },
+        "switchgrass_720x510_DPI300": {
+          "integral_max": 0.7255475940208602,
+          "count_max": 86.09583333333333,
+          "pixel_area_span": [
+            0.09361438313701177,
+            0.1077254792453152
+          ]
+        }
+      },
+      "count_exceeds_integral_in_every_config": true,
+      "dilate_vs_junction_branch_points": {
+        "n": 10,
+        "dilate_larger_in": 10,
+        "median_difference": 1.6361607142857144
+      }
+    }
+  }
+}

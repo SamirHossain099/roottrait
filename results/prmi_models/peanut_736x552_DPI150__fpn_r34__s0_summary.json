@@ -1,0 +1,16 @@
+{
+  "arch": "fpn_r34",
+  "seed": 0,
+  "config": "peanut_736x552_DPI150",
+  "size": 320,
+  "epochs": 20,
+  "batch": 16,
+  "lr": 0.0003,
+  "n_test": 4793,
+  "n_test_nonempty": 2796,
+  "mean_dice_all_frames": 0.7432173660426586,
+  "mean_dice_nonempty_only": 0.599513889643227,
+  "mean_dice_empty_only": 0.9444166249374061,
+  "pred_empty_rate": 0.4546213227623618,
+  "train_seconds": 517.7967848777771
+}
